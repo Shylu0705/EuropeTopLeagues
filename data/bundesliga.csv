@@ -1,0 +1,307 @@
+date,matchday,home_team,away_team,home_score_full_time,away_score_full_time,home_score_half_time,away_score_half_time,goal_diff,winner,defeat,ref
+2023-08-18T18:30:00Z,1,Bremen,Bayern,0,4,0,1,4,Bayern,Bremen,Felix Zwayer
+2023-08-19T13:30:00Z,1,Leverkusen,RB Leipzig,3,2,2,1,1,Leverkusen,RB Leipzig,Felix Brych
+2023-08-19T13:30:00Z,1,Wolfsburg,Heidenheim,2,0,2,0,2,Wolfsburg,Heidenheim,Florian Badstübner
+2023-08-19T13:30:00Z,1,Hoffenheim,Freiburg,1,2,0,2,1,Freiburg,Hoffenheim,Sven Jablonski
+2023-08-19T13:30:00Z,1,Augsburg,M'gladbach,4,4,3,3,0,DRAW,DRAW,Daniel Schlager
+2023-08-19T13:30:00Z,1,Stuttgart,Bochum,5,0,2,0,5,Stuttgart,Bochum,Daniel Siebert
+2023-08-19T16:30:00Z,1,Dortmund,1. FC Köln,1,0,0,0,1,Dortmund,1. FC Köln,Deniz Aytekin
+2023-08-20T13:30:00Z,1,Union Berlin,Mainz,4,1,2,0,3,Union Berlin,Mainz,Tobias Stieler
+2023-08-20T15:30:00Z,1,Frankfurt,Darmstadt,1,0,1,0,1,Frankfurt,Darmstadt,Harm Osmers
+2023-08-25T18:30:00Z,2,RB Leipzig,Stuttgart,5,1,0,1,4,RB Leipzig,Stuttgart,Frank Willenborg
+2023-08-26T13:30:00Z,2,Freiburg,Bremen,1,0,0,0,1,Freiburg,Bremen,Benjamin Brand
+2023-08-26T13:30:00Z,2,1. FC Köln,Wolfsburg,1,2,0,0,1,Wolfsburg,1. FC Köln,Matthias Jöllenbeck
+2023-08-26T13:30:00Z,2,Bochum,Dortmund,1,1,1,0,0,DRAW,DRAW,Robert Schröder
+2023-08-26T13:30:00Z,2,Heidenheim,Hoffenheim,2,3,1,0,1,Hoffenheim,Heidenheim,Robert Hartmann
+2023-08-26T13:30:00Z,2,Darmstadt,Union Berlin,1,4,1,3,3,Union Berlin,Darmstadt,Patrick Ittrich
+2023-08-26T16:30:00Z,2,M'gladbach,Leverkusen,0,3,0,2,3,Leverkusen,M'gladbach,Christian Dingert
+2023-08-27T13:30:00Z,2,Mainz,Frankfurt,1,1,1,0,0,DRAW,DRAW,Bastian Dankert
+2023-08-27T15:30:00Z,2,Bayern,Augsburg,3,1,2,0,2,Bayern,Augsburg,Daniel Siebert
+2023-09-01T18:30:00Z,3,Dortmund,Heidenheim,2,2,2,0,0,DRAW,DRAW,Tobias Reichel
+2023-09-02T13:30:00Z,3,Leverkusen,Darmstadt,5,1,1,1,4,Leverkusen,Darmstadt,Sven Jablonski
+2023-09-02T13:30:00Z,3,Hoffenheim,Wolfsburg,3,1,1,1,2,Hoffenheim,Wolfsburg,Felix Zwayer
+2023-09-02T13:30:00Z,3,Bremen,Mainz,4,0,1,0,4,Bremen,Mainz,Robert Schröder
+2023-09-02T13:30:00Z,3,Augsburg,Bochum,2,2,1,1,0,DRAW,DRAW,Martin Petersen
+2023-09-02T13:30:00Z,3,Stuttgart,Freiburg,5,0,3,0,5,Stuttgart,Freiburg,Felix Brych
+2023-09-02T16:30:00Z,3,M'gladbach,Bayern,1,2,1,0,1,Bayern,M'gladbach,Deniz Aytekin
+2023-09-03T13:30:00Z,3,Frankfurt,1. FC Köln,1,1,0,1,0,DRAW,DRAW,Florian Badstübner
+2023-09-03T15:30:00Z,3,Union Berlin,RB Leipzig,0,3,0,0,3,RB Leipzig,Union Berlin,Daniel Schlager
+2023-09-15T18:30:00Z,4,Bayern,Leverkusen,2,2,1,1,0,DRAW,DRAW,Daniel Schlager
+2023-09-16T13:30:00Z,4,RB Leipzig,Augsburg,3,0,3,0,3,RB Leipzig,Augsburg,Sascha Stegemann
+2023-09-16T13:30:00Z,4,Freiburg,Dortmund,2,4,2,1,2,Dortmund,Freiburg,Tobias Stieler
+2023-09-16T13:30:00Z,4,Wolfsburg,Union Berlin,2,1,2,1,1,Wolfsburg,Union Berlin,Felix Brych
+2023-09-16T13:30:00Z,4,Mainz,Stuttgart,1,3,0,0,2,Stuttgart,Mainz,Harm Osmers
+2023-09-16T13:30:00Z,4,1. FC Köln,Hoffenheim,1,3,0,2,2,Hoffenheim,1. FC Köln,Daniel Siebert
+2023-09-16T16:30:00Z,4,Bochum,Frankfurt,1,1,0,0,0,DRAW,DRAW,Benjamin Brand
+2023-09-17T13:30:00Z,4,Heidenheim,Bremen,4,2,2,0,2,Heidenheim,Bremen,Patrick Ittrich
+2023-09-17T15:30:00Z,4,Darmstadt,M'gladbach,3,3,3,0,0,DRAW,DRAW,Timo Gerach
+2023-09-22T18:30:00Z,5,Stuttgart,Darmstadt,3,1,2,1,2,Stuttgart,Darmstadt,Matthias Jöllenbeck
+2023-09-23T13:30:00Z,5,Bayern,Bochum,7,0,4,0,7,Bayern,Bochum,Robert Hartmann
+2023-09-23T13:30:00Z,5,Dortmund,Wolfsburg,1,0,0,0,1,Dortmund,Wolfsburg,Sven Jablonski
+2023-09-23T13:30:00Z,5,Union Berlin,Hoffenheim,0,2,0,2,2,Hoffenheim,Union Berlin,Deniz Aytekin
+2023-09-23T13:30:00Z,5,M'gladbach,RB Leipzig,0,1,0,0,1,RB Leipzig,M'gladbach,Robert Schröder
+2023-09-23T13:30:00Z,5,Augsburg,Mainz,2,1,2,1,1,Augsburg,Mainz,Marco Fritz
+2023-09-23T16:30:00Z,5,Bremen,1. FC Köln,2,1,1,1,1,Bremen,1. FC Köln,Bastian Dankert
+2023-09-24T13:30:00Z,5,Leverkusen,Heidenheim,4,1,1,0,3,Leverkusen,Heidenheim,Christian Dingert
+2023-09-24T15:30:00Z,5,Frankfurt,Freiburg,0,0,0,0,0,DRAW,DRAW,Felix Zwayer
+2023-09-29T18:30:00Z,6,Hoffenheim,Dortmund,1,3,1,2,2,Dortmund,Hoffenheim,Florian Badstübner
+2023-09-30T13:30:00Z,6,Wolfsburg,Frankfurt,2,0,1,0,2,Wolfsburg,Frankfurt,Frank Willenborg
+2023-09-30T13:30:00Z,6,Mainz,Leverkusen,0,3,0,1,3,Leverkusen,Mainz,Benjamin Brand
+2023-09-30T13:30:00Z,6,1. FC Köln,Stuttgart,0,2,0,0,2,Stuttgart,1. FC Köln,Tobias Stieler
+2023-09-30T13:30:00Z,6,Bochum,M'gladbach,1,3,0,3,2,M'gladbach,Bochum,Felix Brych
+2023-09-30T13:30:00Z,6,Heidenheim,Union Berlin,1,0,0,0,1,Heidenheim,Union Berlin,Sascha Stegemann
+2023-09-30T16:30:00Z,6,RB Leipzig,Bayern,2,2,2,0,0,DRAW,DRAW,Marco Fritz
+2023-10-01T13:30:00Z,6,Darmstadt,Bremen,4,2,2,0,2,Darmstadt,Bremen,Martin Petersen
+2023-10-01T15:30:00Z,6,Freiburg,Augsburg,2,0,1,0,2,Freiburg,Augsburg,Harm Osmers
+2023-10-06T18:30:00Z,7,M'gladbach,Mainz,2,2,1,1,0,DRAW,DRAW,Sven Jablonski
+2023-10-07T13:30:00Z,7,Dortmund,Union Berlin,4,2,1,2,2,Dortmund,Union Berlin,Patrick Ittrich
+2023-10-07T13:30:00Z,7,RB Leipzig,Bochum,0,0,0,0,0,DRAW,DRAW,Timo Gerach
+2023-10-07T13:30:00Z,7,Augsburg,Darmstadt,1,2,0,0,1,Darmstadt,Augsburg,Deniz Aytekin
+2023-10-07T13:30:00Z,7,Stuttgart,Wolfsburg,3,1,0,1,2,Stuttgart,Wolfsburg,Daniel Siebert
+2023-10-07T16:30:00Z,7,Bremen,Hoffenheim,2,3,1,2,1,Hoffenheim,Bremen,Christian Dingert
+2023-10-08T13:30:00Z,7,Leverkusen,1. FC Köln,3,0,2,0,3,Leverkusen,1. FC Köln,Felix Zwayer
+2023-10-08T15:30:00Z,7,Bayern,Freiburg,3,0,2,0,3,Bayern,Freiburg,Robert Schröder
+2023-10-08T17:30:00Z,7,Frankfurt,Heidenheim,2,0,1,0,2,Frankfurt,Heidenheim,Daniel Schlager
+2023-10-20T18:30:00Z,8,Dortmund,Bremen,1,0,0,0,1,Dortmund,Bremen,Felix Brych
+2023-10-21T13:30:00Z,8,Hoffenheim,Frankfurt,1,3,1,3,2,Frankfurt,Hoffenheim,Matthias Jöllenbeck
+2023-10-21T13:30:00Z,8,Darmstadt,RB Leipzig,1,3,1,2,2,RB Leipzig,Darmstadt,Harm Osmers
+2023-10-21T13:30:00Z,8,Union Berlin,Stuttgart,0,3,0,1,3,Stuttgart,Union Berlin,Bastian Dankert
+2023-10-21T13:30:00Z,8,Freiburg,Bochum,2,1,2,1,1,Freiburg,Bochum,Tobias Reichel
+2023-10-21T13:30:00Z,8,Wolfsburg,Leverkusen,1,2,1,1,1,Leverkusen,Wolfsburg,Marco Fritz
+2023-10-21T16:30:00Z,8,Mainz,Bayern,1,3,1,2,2,Bayern,Mainz,Sascha Stegemann
+2023-10-22T13:30:00Z,8,1. FC Köln,M'gladbach,3,1,1,0,2,1. FC Köln,M'gladbach,Deniz Aytekin
+2023-10-22T15:30:00Z,8,Heidenheim,Augsburg,2,5,2,3,3,Augsburg,Heidenheim,Tobias Stieler
+2023-10-27T18:30:00Z,9,Bochum,Mainz,2,2,1,0,0,DRAW,DRAW,Patrick Ittrich
+2023-10-28T13:30:00Z,9,Bayern,Darmstadt,8,0,0,0,8,Bayern,Darmstadt,Martin Petersen
+2023-10-28T13:30:00Z,9,M'gladbach,Heidenheim,2,1,1,1,1,M'gladbach,Heidenheim,Robert Hartmann
+2023-10-28T13:30:00Z,9,Bremen,Union Berlin,2,0,1,0,2,Bremen,Union Berlin,Tobias Stieler
+2023-10-28T13:30:00Z,9,Augsburg,Wolfsburg,3,2,1,2,1,Augsburg,Wolfsburg,Daniel Schlager
+2023-10-28T13:30:00Z,9,Stuttgart,Hoffenheim,2,3,0,2,1,Hoffenheim,Stuttgart,Felix Zwayer
+2023-10-28T16:30:00Z,9,RB Leipzig,1. FC Köln,6,0,4,0,6,RB Leipzig,1. FC Köln,Benjamin Brand
+2023-10-29T14:30:00Z,9,Frankfurt,Dortmund,3,3,2,1,0,DRAW,DRAW,Robert Schröder
+2023-10-29T16:30:00Z,9,Leverkusen,Freiburg,2,1,1,0,1,Leverkusen,Freiburg,Daniel Siebert
+2023-11-03T19:30:00Z,10,Darmstadt,Bochum,1,2,1,1,1,Bochum,Darmstadt,Marco Fritz
+2023-11-04T14:30:00Z,10,Union Berlin,Frankfurt,0,3,0,2,3,Frankfurt,Union Berlin,Sven Jablonski
+2023-11-04T14:30:00Z,10,Freiburg,M'gladbach,3,3,1,3,0,DRAW,DRAW,Felix Brych
+2023-11-04T14:30:00Z,10,Mainz,RB Leipzig,2,0,0,0,2,Mainz,RB Leipzig,Bastian Dankert
+2023-11-04T14:30:00Z,10,1. FC Köln,Augsburg,1,1,1,1,0,DRAW,DRAW,Christian Dingert
+2023-11-04T14:30:00Z,10,Hoffenheim,Leverkusen,2,3,0,2,1,Leverkusen,Hoffenheim,Frank Willenborg
+2023-11-04T17:30:00Z,10,Dortmund,Bayern,0,4,0,2,4,Bayern,Dortmund,Deniz Aytekin
+2023-11-05T14:30:00Z,10,Wolfsburg,Bremen,2,2,1,1,0,DRAW,DRAW,
+2023-11-05T16:30:00Z,10,Heidenheim,Stuttgart,2,0,0,0,2,Heidenheim,Stuttgart,
+2023-11-10T19:30:00Z,11,M'gladbach,Wolfsburg,4,0,2,0,4,M'gladbach,Wolfsburg,Felix Zwayer
+2023-11-11T14:30:00Z,11,Bayern,Heidenheim,4,2,2,0,2,Bayern,Heidenheim,Harm Osmers
+2023-11-11T14:30:00Z,11,Augsburg,Hoffenheim,1,1,0,1,0,DRAW,DRAW,Felix Brych
+2023-11-11T14:30:00Z,11,Stuttgart,Dortmund,2,1,1,1,1,Stuttgart,Dortmund,Tobias Stieler
+2023-11-11T14:30:00Z,11,Darmstadt,Mainz,0,0,0,0,0,DRAW,DRAW,Daniel Siebert
+2023-11-11T17:30:00Z,11,Bochum,1. FC Köln,1,1,1,0,0,DRAW,DRAW,Matthias Jöllenbeck
+2023-11-12T14:30:00Z,11,Leverkusen,Union Berlin,4,0,1,0,4,Leverkusen,Union Berlin,Timo Gerach
+2023-11-12T16:30:00Z,11,Bremen,Frankfurt,2,2,1,0,0,DRAW,DRAW,Benjamin Brand
+2023-11-12T18:30:00Z,11,RB Leipzig,Freiburg,3,1,1,1,2,RB Leipzig,Freiburg,Patrick Ittrich
+2023-11-24T19:30:00Z,12,1. FC Köln,Bayern,0,1,0,1,1,Bayern,1. FC Köln,Marco Fritz
+2023-11-25T14:30:00Z,12,Dortmund,M'gladbach,4,2,3,2,2,Dortmund,M'gladbach,Sven Jablonski
+2023-11-25T14:30:00Z,12,Union Berlin,Augsburg,1,1,0,1,0,DRAW,DRAW,Florian Badstübner
+2023-11-25T14:30:00Z,12,Freiburg,Darmstadt,1,1,1,1,0,DRAW,DRAW,Sascha Stegemann
+2023-11-25T14:30:00Z,12,Wolfsburg,RB Leipzig,2,1,1,0,1,Wolfsburg,RB Leipzig,Robert Hartmann
+2023-11-25T14:30:00Z,12,Bremen,Leverkusen,0,3,0,2,3,Leverkusen,Bremen,Martin Petersen
+2023-11-25T17:30:00Z,12,Frankfurt,Stuttgart,1,2,1,2,1,Stuttgart,Frankfurt,Felix Brych
+2023-11-26T14:30:00Z,12,Heidenheim,Bochum,0,0,0,0,0,DRAW,DRAW,Felix Zwayer
+2023-11-26T16:30:00Z,12,Hoffenheim,Mainz,1,1,0,1,0,DRAW,DRAW,Deniz Aytekin
+2023-12-01T19:30:00Z,13,Darmstadt,1. FC Köln,0,1,0,0,1,1. FC Köln,Darmstadt,Patrick Ittrich
+2023-12-02T14:30:00Z,13,RB Leipzig,Heidenheim,2,1,2,1,1,RB Leipzig,Heidenheim,Christian Dingert
+2023-12-02T14:30:00Z,13,M'gladbach,Hoffenheim,2,1,0,0,1,M'gladbach,Hoffenheim,Tobias Reichel
+2023-12-02T14:30:00Z,13,Bochum,Wolfsburg,3,1,2,1,2,Bochum,Wolfsburg,Robert Schröder
+2023-12-02T17:30:00Z,13,Stuttgart,Bremen,2,0,1,0,2,Stuttgart,Bremen,Bastian Dankert
+2023-12-03T14:30:00Z,13,Mainz,Freiburg,0,1,0,0,1,Freiburg,Mainz,Tobias Stieler
+2023-12-03T16:30:00Z,13,Leverkusen,Dortmund,1,1,0,1,0,DRAW,DRAW,Daniel Siebert
+2023-12-03T18:30:00Z,13,Augsburg,Frankfurt,2,1,1,0,1,Augsburg,Frankfurt,Harm Osmers
+2023-12-08T19:30:00Z,14,Hoffenheim,Bochum,3,1,2,0,2,Hoffenheim,Bochum,Matthias Jöllenbeck
+2023-12-09T14:30:00Z,14,Union Berlin,M'gladbach,3,1,1,0,2,Union Berlin,M'gladbach,Martin Petersen
+2023-12-09T14:30:00Z,14,Frankfurt,Bayern,5,1,3,1,4,Frankfurt,Bayern,Felix Zwayer
+2023-12-09T14:30:00Z,14,Wolfsburg,Freiburg,0,1,0,0,1,Freiburg,Wolfsburg,Marco Fritz
+2023-12-09T14:30:00Z,14,Bremen,Augsburg,2,0,1,0,2,Bremen,Augsburg,Sascha Stegemann
+2023-12-09T14:30:00Z,14,Heidenheim,Darmstadt,3,2,1,0,1,Heidenheim,Darmstadt,Daniel Schlager
+2023-12-09T17:30:00Z,14,Dortmund,RB Leipzig,2,3,1,1,1,RB Leipzig,Dortmund,Sven Jablonski
+2023-12-10T14:30:00Z,14,Stuttgart,Leverkusen,1,1,1,0,0,DRAW,DRAW,Deniz Aytekin
+2023-12-10T16:30:00Z,14,1. FC Köln,Mainz,0,0,0,0,0,DRAW,DRAW,Frank Willenborg
+2023-12-15T19:30:00Z,15,M'gladbach,Bremen,2,2,1,1,0,DRAW,DRAW,Felix Zwayer
+2023-12-16T14:30:00Z,15,Mainz,Heidenheim,0,1,0,1,1,Heidenheim,Mainz,Bastian Dankert
+2023-12-16T14:30:00Z,15,Bochum,Union Berlin,3,0,1,0,3,Bochum,Union Berlin,Sven Jablonski
+2023-12-16T14:30:00Z,15,Augsburg,Dortmund,1,1,1,1,0,DRAW,DRAW,Matthias Jöllenbeck
+2023-12-16T14:30:00Z,15,Darmstadt,Wolfsburg,0,1,0,0,1,Wolfsburg,Darmstadt,Robert Hartmann
+2023-12-16T17:30:00Z,15,RB Leipzig,Hoffenheim,3,1,1,1,2,RB Leipzig,Hoffenheim,Robert Schröder
+2023-12-17T14:30:00Z,15,Freiburg,1. FC Köln,2,0,0,0,2,Freiburg,1. FC Köln,Harm Osmers
+2023-12-17T16:30:00Z,15,Leverkusen,Frankfurt,3,0,1,0,3,Leverkusen,Frankfurt,Christian Dingert
+2023-12-17T18:30:00Z,15,Bayern,Stuttgart,3,0,1,0,3,Bayern,Stuttgart,Tobias Stieler
+2023-12-19T17:30:00Z,16,Bremen,RB Leipzig,1,1,0,0,0,DRAW,DRAW,Tobias Reichel
+2023-12-19T19:30:00Z,16,Dortmund,Mainz,1,1,1,1,0,DRAW,DRAW,Marco Fritz
+2023-12-19T19:30:00Z,16,Hoffenheim,Darmstadt,3,3,2,1,0,DRAW,DRAW,Frank Willenborg
+2023-12-20T17:30:00Z,16,Union Berlin,1. FC Köln,2,0,0,0,2,Union Berlin,1. FC Köln,Deniz Aytekin
+2023-12-20T19:30:00Z,16,Leverkusen,Bochum,4,0,3,0,4,Leverkusen,Bochum,Daniel Schlager
+2023-12-20T19:30:00Z,16,Frankfurt,M'gladbach,2,1,0,1,1,Frankfurt,M'gladbach,Florian Badstübner
+2023-12-20T19:30:00Z,16,Wolfsburg,Bayern,1,2,1,2,1,Bayern,Wolfsburg,Sascha Stegemann
+2023-12-20T19:30:00Z,16,Stuttgart,Augsburg,3,0,2,0,3,Stuttgart,Augsburg,Daniel Siebert
+2023-12-20T19:30:00Z,16,Heidenheim,Freiburg,3,2,0,1,1,Heidenheim,Freiburg,Benjamin Brand
+2024-01-12T19:30:00Z,17,Bayern,Hoffenheim,3,0,1,0,3,Bayern,Hoffenheim,Benjamin Brand
+2024-01-13T14:30:00Z,17,RB Leipzig,Frankfurt,0,1,0,1,1,Frankfurt,RB Leipzig,Frank Willenborg
+2024-01-13T14:30:00Z,17,Freiburg,Union Berlin,0,0,0,0,0,DRAW,DRAW,Christian Dingert
+2024-01-13T14:30:00Z,17,Mainz,Wolfsburg,1,1,0,1,0,DRAW,DRAW,Patrick Ittrich
+2024-01-13T14:30:00Z,17,1. FC Köln,Heidenheim,1,1,1,0,0,DRAW,DRAW,Felix Zwayer
+2024-01-13T14:30:00Z,17,Augsburg,Leverkusen,0,1,0,0,1,Leverkusen,Augsburg,Sven Jablonski
+2024-01-13T17:30:00Z,17,Darmstadt,Dortmund,0,3,0,1,3,Dortmund,Darmstadt,Deniz Aytekin
+2024-01-14T14:30:00Z,17,Bochum,Bremen,1,1,0,0,0,DRAW,DRAW,Tobias Stieler
+2024-01-14T16:30:00Z,17,M'gladbach,Stuttgart,3,1,2,0,2,M'gladbach,Stuttgart,Harm Osmers
+2024-01-20T14:30:00Z,18,1. FC Köln,Dortmund,0,4,0,1,4,Dortmund,1. FC Köln,Daniel Schlager
+2024-01-20T14:30:00Z,18,Darmstadt,Frankfurt,2,2,0,1,0,DRAW,DRAW,Daniel Siebert
+2024-01-20T14:30:00Z,18,Heidenheim,Wolfsburg,1,1,1,1,0,DRAW,DRAW,Timo Gerach
+2024-01-20T14:30:00Z,18,Freiburg,Hoffenheim,3,2,1,0,1,Freiburg,Hoffenheim,Sascha Stegemann
+2024-01-20T14:30:00Z,18,Bochum,Stuttgart,1,0,0,0,1,Bochum,Stuttgart,Bastian Dankert
+2024-01-20T17:30:00Z,18,RB Leipzig,Leverkusen,2,3,1,0,1,Leverkusen,RB Leipzig,Matthias Jöllenbeck
+2024-01-21T14:30:00Z,18,Bayern,Bremen,0,1,0,0,1,Bremen,Bayern,Marco Fritz
+2024-01-21T16:30:00Z,18,M'gladbach,Augsburg,1,2,1,0,1,Augsburg,M'gladbach,Martin Petersen
+2024-01-24T19:30:00Z,13,Bayern,Union Berlin,1,0,0,0,1,Bayern,Union Berlin,Frank Willenborg
+2024-01-26T19:30:00Z,19,Frankfurt,Mainz,1,0,0,0,1,Frankfurt,Mainz,Felix Zwayer
+2024-01-27T14:30:00Z,19,Augsburg,Bayern,2,3,0,2,1,Bayern,Augsburg,Christian Dingert
+2024-01-27T14:30:00Z,19,Stuttgart,RB Leipzig,5,2,2,1,3,Stuttgart,RB Leipzig,Sven Jablonski
+2024-01-27T14:30:00Z,19,Bremen,Freiburg,3,1,1,1,2,Bremen,Freiburg,Robert Hartmann
+2024-01-27T14:30:00Z,19,Wolfsburg,1. FC Köln,1,1,1,1,0,DRAW,DRAW,Sören Storks
+2024-01-27T14:30:00Z,19,Hoffenheim,Heidenheim,1,1,1,1,0,DRAW,DRAW,Tobias Welz
+2024-01-27T17:30:00Z,19,Leverkusen,M'gladbach,0,0,0,0,0,DRAW,DRAW,Deniz Aytekin
+2024-01-28T14:30:00Z,19,Union Berlin,Darmstadt,1,0,0,0,1,Union Berlin,Darmstadt,Harm Osmers
+2024-01-28T16:30:00Z,19,Dortmund,Bochum,3,1,1,1,2,Dortmund,Bochum,Benjamin Brand
+2024-02-02T19:30:00Z,20,Heidenheim,Dortmund,0,0,0,0,0,DRAW,DRAW,Bastian Dankert
+2024-02-03T14:30:00Z,20,Darmstadt,Leverkusen,0,2,0,1,2,Leverkusen,Darmstadt,Tobias Reichel
+2024-02-03T14:30:00Z,20,Bayern,M'gladbach,3,1,1,1,2,Bayern,M'gladbach,Tobias Stieler
+2024-02-03T14:30:00Z,20,Mainz,Bremen,0,1,0,1,1,Bremen,Mainz,Benjamin Brand
+2024-02-03T14:30:00Z,20,Bochum,Augsburg,1,1,1,0,0,DRAW,DRAW,Patrick Ittrich
+2024-02-03T14:30:00Z,20,Freiburg,Stuttgart,1,3,1,2,2,Stuttgart,Freiburg,Daniel Siebert
+2024-02-03T17:30:00Z,20,1. FC Köln,Frankfurt,2,0,0,0,2,1. FC Köln,Frankfurt,Timo Gerach
+2024-02-04T14:30:00Z,20,Wolfsburg,Hoffenheim,2,2,0,1,0,DRAW,DRAW,Florian Badstübner
+2024-02-04T16:30:00Z,20,RB Leipzig,Union Berlin,2,0,1,0,2,RB Leipzig,Union Berlin,Marco Fritz
+2024-02-07T17:30:00Z,18,Mainz,Union Berlin,1,1,1,1,0,DRAW,DRAW,Martin Petersen
+2024-02-09T19:30:00Z,21,Dortmund,Freiburg,3,0,2,0,3,Dortmund,Freiburg,Harm Osmers
+2024-02-10T14:30:00Z,21,Augsburg,RB Leipzig,2,2,1,1,0,DRAW,DRAW,Benjamin Brand
+2024-02-10T14:30:00Z,21,Union Berlin,Wolfsburg,1,0,1,0,1,Union Berlin,Wolfsburg,Matthias Jöllenbeck
+2024-02-10T14:30:00Z,21,Frankfurt,Bochum,1,1,1,1,0,DRAW,DRAW,Sven Jablonski
+2024-02-10T14:30:00Z,21,Bremen,Heidenheim,1,2,1,2,1,Heidenheim,Bremen,Robert Schröder
+2024-02-10T14:30:00Z,21,M'gladbach,Darmstadt,0,0,0,0,0,DRAW,DRAW,Sascha Stegemann
+2024-02-10T17:30:00Z,21,Leverkusen,Bayern,3,0,1,0,3,Leverkusen,Bayern,Felix Zwayer
+2024-02-11T14:30:00Z,21,Stuttgart,Mainz,3,1,2,0,2,Stuttgart,Mainz,Deniz Aytekin
+2024-02-11T16:30:00Z,21,Hoffenheim,1. FC Köln,1,1,0,0,0,DRAW,DRAW,Christian Dingert
+2024-02-16T19:30:00Z,22,1. FC Köln,Bremen,0,1,0,0,1,Bremen,1. FC Köln,Daniel Siebert
+2024-02-17T14:30:00Z,22,Wolfsburg,Dortmund,1,1,0,1,0,DRAW,DRAW,Martin Petersen
+2024-02-17T14:30:00Z,22,Hoffenheim,Union Berlin,0,1,0,0,1,Union Berlin,Hoffenheim,Robert Hartmann
+2024-02-17T14:30:00Z,22,Heidenheim,Leverkusen,1,2,0,1,1,Leverkusen,Heidenheim,Harm Osmers
+2024-02-17T14:30:00Z,22,Mainz,Augsburg,1,0,1,0,1,Mainz,Augsburg,Tobias Reichel
+2024-02-17T14:30:00Z,22,Darmstadt,Stuttgart,1,2,0,1,1,Stuttgart,Darmstadt,Tobias Welz
+2024-02-17T17:30:00Z,22,RB Leipzig,M'gladbach,2,0,1,0,2,RB Leipzig,M'gladbach,Sören Storks
+2024-02-18T14:30:00Z,22,Freiburg,Frankfurt,3,3,2,2,0,DRAW,DRAW,Tobias Stieler
+2024-02-18T16:30:00Z,22,Bochum,Bayern,3,2,2,1,1,Bochum,Bayern,Daniel Schlager
+2024-02-23T19:30:00Z,23,Leverkusen,Mainz,2,1,1,1,1,Leverkusen,Mainz,Timo Gerach
+2024-02-24T14:30:00Z,23,Stuttgart,1. FC Köln,1,1,0,0,0,DRAW,DRAW,Patrick Ittrich
+2024-02-24T14:30:00Z,23,Union Berlin,Heidenheim,2,2,2,1,0,DRAW,DRAW,Deniz Aytekin
+2024-02-24T14:30:00Z,23,Bremen,Darmstadt,1,1,1,1,0,DRAW,DRAW,Florian Badstübner
+2024-02-24T14:40:00Z,23,M'gladbach,Bochum,5,2,2,0,3,M'gladbach,Bochum,Frank Willenborg
+2024-02-24T17:30:00Z,23,Bayern,RB Leipzig,2,1,0,0,1,Bayern,RB Leipzig,Sascha Stegemann
+2024-02-25T14:30:00Z,23,Frankfurt,Wolfsburg,2,2,1,2,0,DRAW,DRAW,Daniel Schlager
+2024-02-25T16:30:00Z,23,Dortmund,Hoffenheim,2,3,2,1,1,Hoffenheim,Dortmund,Marco Fritz
+2024-02-25T18:30:00Z,23,Augsburg,Freiburg,2,1,0,1,1,Augsburg,Freiburg,Bastian Dankert
+2024-03-01T19:30:00Z,24,Freiburg,Bayern,2,2,1,1,0,DRAW,DRAW,Sven Jablonski
+2024-03-02T14:30:00Z,24,Union Berlin,Dortmund,0,2,0,1,2,Dortmund,Union Berlin,Christian Dingert
+2024-03-02T14:30:00Z,24,Bochum,RB Leipzig,1,4,1,1,3,RB Leipzig,Bochum,Harm Osmers
+2024-03-02T14:30:00Z,24,Heidenheim,Frankfurt,1,2,0,1,1,Frankfurt,Heidenheim,Sören Storks
+2024-03-02T14:30:00Z,24,Mainz,M'gladbach,1,1,1,0,0,DRAW,DRAW,Robert Schröder
+2024-03-02T14:30:00Z,24,Darmstadt,Augsburg,0,6,0,5,6,Augsburg,Darmstadt,Felix Zwayer
+2024-03-02T17:30:00Z,24,Wolfsburg,Stuttgart,2,3,0,1,1,Stuttgart,Wolfsburg,Benjamin Brand
+2024-03-03T14:30:00Z,24,1. FC Köln,Leverkusen,0,2,0,1,2,Leverkusen,1. FC Köln,Tobias Stieler
+2024-03-03T16:30:00Z,24,Hoffenheim,Bremen,2,1,2,0,1,Hoffenheim,Bremen,Matthias Jöllenbeck
+2024-03-08T19:30:00Z,25,Stuttgart,Union Berlin,2,0,1,0,2,Stuttgart,Union Berlin,Robert Schröder
+2024-03-09T14:30:00Z,25,Bayern,Mainz,8,1,3,1,7,Bayern,Mainz,Patrick Ittrich
+2024-03-09T14:30:00Z,25,M'gladbach,1. FC Köln,3,3,1,1,0,DRAW,DRAW,Felix Zwayer
+2024-03-09T14:30:00Z,25,Augsburg,Heidenheim,1,0,1,0,1,Augsburg,Heidenheim,Tobias Welz
+2024-03-09T14:30:00Z,25,RB Leipzig,Darmstadt,2,0,1,0,2,RB Leipzig,Darmstadt,Robert Hartmann
+2024-03-09T17:30:00Z,25,Bremen,Dortmund,1,2,0,2,1,Dortmund,Bremen,Deniz Aytekin
+2024-03-10T14:30:00Z,25,Bochum,Freiburg,1,2,0,1,1,Freiburg,Bochum,Marco Fritz
+2024-03-10T16:30:00Z,25,Frankfurt,Hoffenheim,3,1,1,1,2,Frankfurt,Hoffenheim,Bastian Dankert
+2024-03-10T18:30:00Z,25,Leverkusen,Wolfsburg,2,0,1,0,2,Leverkusen,Wolfsburg,Daniel Siebert
+2024-03-15T19:30:00Z,26,1. FC Köln,RB Leipzig,1,5,1,1,4,RB Leipzig,1. FC Köln,Florian Badstübner
+2024-03-16T14:30:00Z,26,Darmstadt,Bayern,2,5,1,2,3,Bayern,Darmstadt,Tobias Reichel
+2024-03-16T14:30:00Z,26,Heidenheim,M'gladbach,1,1,0,1,0,DRAW,DRAW,Martin Petersen
+2024-03-16T14:30:00Z,26,Union Berlin,Bremen,2,1,0,0,1,Union Berlin,Bremen,Daniel Schlager
+2024-03-16T14:30:00Z,26,Mainz,Bochum,2,0,1,0,2,Mainz,Bochum,Matthias Jöllenbeck
+2024-03-16T14:30:00Z,26,Wolfsburg,Augsburg,1,3,1,1,2,Augsburg,Wolfsburg,Timo Gerach
+2024-03-16T17:30:00Z,26,Hoffenheim,Stuttgart,0,3,0,2,3,Stuttgart,Hoffenheim,Sascha Stegemann
+2024-03-17T14:30:00Z,26,Freiburg,Leverkusen,2,3,1,2,1,Leverkusen,Freiburg,Harm Osmers
+2024-03-17T16:30:00Z,26,Dortmund,Frankfurt,3,1,1,1,2,Dortmund,Frankfurt,Tobias Stieler
+2024-03-30T14:30:00Z,27,Frankfurt,Union Berlin,0,0,0,0,0,DRAW,DRAW,Marco Fritz
+2024-03-30T14:30:00Z,27,M'gladbach,Freiburg,0,3,0,1,3,Freiburg,M'gladbach,Christian Dingert
+2024-03-30T14:30:00Z,27,Bremen,Wolfsburg,0,2,0,1,2,Wolfsburg,Bremen,Sascha Stegemann
+2024-03-30T14:30:00Z,27,RB Leipzig,Mainz,0,0,0,0,0,DRAW,DRAW,Frank Willenborg
+2024-03-30T14:30:00Z,27,Leverkusen,Hoffenheim,2,1,0,1,1,Leverkusen,Hoffenheim,Deniz Aytekin
+2024-03-30T17:30:00Z,27,Bayern,Dortmund,0,2,0,1,2,Dortmund,Bayern,Harm Osmers
+2024-03-31T13:30:00Z,27,Augsburg,1. FC Köln,1,1,1,1,0,DRAW,DRAW,Sören Storks
+2024-03-31T15:30:00Z,27,Stuttgart,Heidenheim,3,3,1,0,0,DRAW,DRAW,Felix Zwayer
+2024-03-31T17:30:00Z,27,Bochum,Darmstadt,2,2,1,0,0,DRAW,DRAW,Sven Jablonski
+2024-04-05T18:30:00Z,28,Frankfurt,Bremen,1,1,0,0,0,DRAW,DRAW,Robert Hartmann
+2024-04-06T13:30:00Z,28,Heidenheim,Bayern,3,2,0,2,1,Heidenheim,Bayern,Robert Schröder
+2024-04-06T13:30:00Z,28,Freiburg,RB Leipzig,1,4,0,3,3,RB Leipzig,Freiburg,Daniel Siebert
+2024-04-06T13:30:00Z,28,Union Berlin,Leverkusen,0,1,0,1,1,Leverkusen,Union Berlin,Benjamin Brand
+2024-04-06T13:30:00Z,28,1. FC Köln,Bochum,2,1,0,0,1,1. FC Köln,Bochum,Tobias Welz
+2024-04-06T13:30:00Z,28,Mainz,Darmstadt,4,0,1,0,4,Mainz,Darmstadt,Daniel Schlager
+2024-04-06T16:30:00Z,28,Dortmund,Stuttgart,0,1,0,0,1,Stuttgart,Dortmund,Matthias Jöllenbeck
+2024-04-07T13:30:00Z,28,Hoffenheim,Augsburg,3,1,2,0,2,Hoffenheim,Augsburg,Florian Exner
+2024-04-07T15:30:00Z,28,Wolfsburg,M'gladbach,1,3,1,0,2,M'gladbach,Wolfsburg,Bastian Dankert
+2024-04-12T18:30:00Z,29,Augsburg,Union Berlin,2,0,0,0,2,Augsburg,Union Berlin,Tobias Stieler
+2024-04-13T13:30:00Z,29,M'gladbach,Dortmund,1,2,1,2,1,Dortmund,M'gladbach,Florian Badstübner
+2024-04-13T13:30:00Z,29,RB Leipzig,Wolfsburg,3,0,1,0,3,RB Leipzig,Wolfsburg,Christian Dingert
+2024-04-13T13:30:00Z,29,Bayern,1. FC Köln,2,0,0,0,2,Bayern,1. FC Köln,Frank Willenborg
+2024-04-13T13:30:00Z,29,Mainz,Hoffenheim,4,1,0,1,3,Mainz,Hoffenheim,Felix Zwayer
+2024-04-13T13:30:00Z,29,Bochum,Heidenheim,1,1,0,0,0,DRAW,DRAW,Patrick Ittrich
+2024-04-13T16:30:00Z,29,Stuttgart,Frankfurt,3,0,3,0,3,Stuttgart,Frankfurt,Deniz Aytekin
+2024-04-14T13:30:00Z,29,Darmstadt,Freiburg,0,1,0,1,1,Freiburg,Darmstadt,Sascha Stegemann
+2024-04-14T15:30:00Z,29,Leverkusen,Bremen,5,0,1,0,5,Leverkusen,Bremen,Harm Osmers
+2024-04-19T18:30:00Z,30,Frankfurt,Augsburg,3,1,0,1,2,Frankfurt,Augsburg,Martin Petersen
+2024-04-20T13:30:00Z,30,Heidenheim,RB Leipzig,1,2,0,1,1,RB Leipzig,Heidenheim,Tobias Welz
+2024-04-20T13:30:00Z,30,Hoffenheim,M'gladbach,4,3,1,1,1,Hoffenheim,M'gladbach,Sören Storks
+2024-04-20T13:30:00Z,30,Wolfsburg,Bochum,1,0,1,0,1,Wolfsburg,Bochum,Tobias Reichel
+2024-04-20T13:30:00Z,30,1. FC Köln,Darmstadt,0,2,0,0,2,Darmstadt,1. FC Köln,Matthias Jöllenbeck
+2024-04-20T16:30:00Z,30,Union Berlin,Bayern,1,5,0,2,4,Bayern,Union Berlin,Sven Jablonski
+2024-04-21T13:30:00Z,30,Bremen,Stuttgart,2,1,1,0,1,Bremen,Stuttgart,Robert Schröder
+2024-04-21T15:30:00Z,30,Dortmund,Leverkusen,1,1,0,0,0,DRAW,DRAW,Daniel Siebert
+2024-04-21T17:30:00Z,30,Freiburg,Mainz,1,1,1,1,0,DRAW,DRAW,Marco Fritz
+2024-04-26T18:30:00Z,31,Bochum,Hoffenheim,3,2,2,0,1,Bochum,Hoffenheim,Tobias Stieler
+2024-04-27T13:30:00Z,31,RB Leipzig,Dortmund,4,1,2,1,3,RB Leipzig,Dortmund,Deniz Aytekin
+2024-04-27T13:30:00Z,31,Bayern,Frankfurt,2,1,1,1,1,Bayern,Frankfurt,Daniel Schlager
+2024-04-27T13:30:00Z,31,Freiburg,Wolfsburg,1,2,1,0,1,Wolfsburg,Freiburg,Frank Willenborg
+2024-04-27T13:30:00Z,31,Augsburg,Bremen,0,3,0,0,3,Bremen,Augsburg,Tobias Welz
+2024-04-27T16:30:00Z,31,Leverkusen,Stuttgart,2,2,0,0,0,DRAW,DRAW,Felix Zwayer
+2024-04-28T13:30:00Z,31,M'gladbach,Union Berlin,0,0,0,0,0,DRAW,DRAW,Sascha Stegemann
+2024-04-28T15:30:00Z,31,Mainz,1. FC Köln,1,1,1,0,0,DRAW,DRAW,Benjamin Brand
+2024-04-28T17:30:00Z,31,Darmstadt,Heidenheim,0,1,0,0,1,Heidenheim,Darmstadt,Bastian Dankert
+2024-05-03T18:30:00Z,32,Hoffenheim,RB Leipzig,1,1,0,1,0,DRAW,DRAW,Harm Osmers
+2024-05-04T13:30:00Z,32,Stuttgart,Bayern,3,1,1,1,2,Stuttgart,Bayern,Tobias Welz
+2024-05-04T13:30:00Z,32,Bremen,M'gladbach,2,2,1,1,0,DRAW,DRAW,Timo Gerach
+2024-05-04T13:30:00Z,32,Dortmund,Augsburg,5,1,4,1,4,Dortmund,Augsburg,Robert Schröder
+2024-05-04T13:30:00Z,32,Wolfsburg,Darmstadt,3,0,2,0,3,Wolfsburg,Darmstadt,Robert Hartmann
+2024-05-04T16:30:00Z,32,1. FC Köln,Freiburg,0,0,0,0,0,DRAW,DRAW,Sören Storks
+2024-05-05T13:30:00Z,32,Union Berlin,Bochum,3,4,0,3,1,Bochum,Union Berlin,Marco Fritz
+2024-05-05T15:30:00Z,32,Frankfurt,Leverkusen,1,5,1,2,4,Leverkusen,Frankfurt,Christian Dingert
+2024-05-05T17:30:00Z,32,Heidenheim,Mainz,1,1,0,1,0,DRAW,DRAW,Sven Jablonski
+2024-05-10T18:30:00Z,33,Augsburg,Stuttgart,0,1,0,0,1,Stuttgart,Augsburg,Patrick Ittrich
+2024-05-11T13:30:00Z,33,1. FC Köln,Union Berlin,3,2,1,2,1,1. FC Köln,Union Berlin,Deniz Aytekin
+2024-05-11T13:30:00Z,33,M'gladbach,Frankfurt,1,1,1,1,0,DRAW,DRAW,Robert Schröder
+2024-05-11T13:30:00Z,33,RB Leipzig,Bremen,1,1,0,1,0,DRAW,DRAW,Sascha Stegemann
+2024-05-11T13:30:00Z,33,Freiburg,Heidenheim,1,1,1,1,0,DRAW,DRAW,Daniel Siebert
+2024-05-11T16:30:00Z,33,Mainz,Dortmund,3,0,3,0,3,Mainz,Dortmund,Tobias Stieler
+2024-05-12T13:30:00Z,33,Darmstadt,Hoffenheim,0,6,0,5,6,Hoffenheim,Darmstadt,Florian Badstübner
+2024-05-12T15:30:00Z,33,Bayern,Wolfsburg,2,0,2,0,2,Bayern,Wolfsburg,Bastian Dankert
+2024-05-12T17:30:00Z,33,Bochum,Leverkusen,0,5,0,2,5,Leverkusen,Bochum,Benjamin Brand
+2024-05-18T13:30:00Z,34,Hoffenheim,Bayern,4,2,1,2,2,Hoffenheim,Bayern,Marco Fritz
+2024-05-18T13:30:00Z,34,Frankfurt,RB Leipzig,2,2,0,1,0,DRAW,DRAW,Felix Zwayer
+2024-05-18T13:30:00Z,34,Union Berlin,Freiburg,2,1,0,0,1,Union Berlin,Freiburg,Christian Dingert
+2024-05-18T13:30:00Z,34,Wolfsburg,Mainz,1,3,1,1,2,Mainz,Wolfsburg,Frank Willenborg
+2024-05-18T13:30:00Z,34,Stuttgart,M'gladbach,4,0,2,0,4,Stuttgart,M'gladbach,Daniel Schlager
+2024-05-18T13:30:00Z,34,Heidenheim,1. FC Köln,4,1,3,0,3,Heidenheim,1. FC Köln,Tobias Welz
+2024-05-18T13:30:00Z,34,Bremen,Bochum,4,1,1,0,3,Bremen,Bochum,Martin Petersen
+2024-05-18T13:30:00Z,34,Leverkusen,Augsburg,2,1,2,0,1,Leverkusen,Augsburg,Matthias Jöllenbeck
+2024-05-18T13:30:00Z,34,Dortmund,Darmstadt,4,0,2,0,4,Dortmund,Darmstadt,Daniel Siebert

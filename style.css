@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0e1117;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#map {
+    width: 100vw;
+    height: 90vh;
+}
+
+#info-box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    z-index: 10;
+    display: none; /* Hidden by default, will be shown when a country is clicked */
+}

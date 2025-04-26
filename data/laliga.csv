@@ -1,0 +1,381 @@
+date,matchday,home_team,away_team,home_score_full_time,away_score_full_time,home_score_half_time,away_score_half_time,goal_diff,winner,defeat,ref
+2023-08-11T17:30:00Z,1,Almería,Rayo Vallecano,0,2,0,2,2,Rayo Vallecano,Almería,Javier Alberola Rojas
+2023-08-11T20:00:00Z,1,Sevilla FC,Valencia,1,2,0,0,1,Valencia,Sevilla FC,José Sánchez Martínez
+2023-08-12T15:00:00Z,1,Real Sociedad,Girona,1,1,1,0,0,DRAW,DRAW,Francisco Hernández Maeso
+2023-08-12T17:30:00Z,1,Las Palmas,Mallorca,1,1,1,0,0,DRAW,DRAW,Víctor García Verdura
+2023-08-12T19:30:00Z,1,Athletic,Real Madrid,0,2,0,2,2,Real Madrid,Athletic,Jesús Gil Manzano
+2023-08-13T15:00:00Z,1,Celta,Osasuna,0,2,0,1,2,Osasuna,Celta,Pablo González Fuertes
+2023-08-13T17:30:00Z,1,Villarreal,Real Betis,1,2,0,1,1,Real Betis,Villarreal,Miguel Ortiz Arias
+2023-08-13T19:30:00Z,1,Getafe,Barça,0,0,0,0,0,DRAW,DRAW,César Soto Grado
+2023-08-14T17:30:00Z,1,Cádiz CF,Alavés,1,0,1,0,1,Cádiz CF,Alavés,Isidro Díaz de Mera
+2023-08-14T19:30:00Z,1,Atleti,Granada,3,1,1,0,2,Atleti,Granada,Juan Pulido Santana
+2023-08-18T17:30:00Z,2,Mallorca,Villarreal,0,1,0,0,1,Villarreal,Mallorca,Javier Alberola Rojas
+2023-08-18T19:30:00Z,2,Valencia,Las Palmas,1,0,0,0,1,Valencia,Las Palmas,Javier Iglesias Villanueva
+2023-08-19T15:00:00Z,2,Real Sociedad,Celta,1,1,1,0,0,DRAW,DRAW,Miguel Ortiz Arias
+2023-08-19T17:30:00Z,2,Almería,Real Madrid,1,3,1,1,2,Real Madrid,Almería,José Sánchez Martínez
+2023-08-19T19:30:00Z,2,Osasuna,Athletic,0,2,0,2,2,Athletic,Osasuna,José Munuera Montero
+2023-08-20T17:00:00Z,2,Girona,Getafe,3,0,1,0,3,Girona,Getafe,Jorge Figueroa Vázquez
+2023-08-20T17:30:00Z,2,Barça,Cádiz CF,2,0,0,0,2,Barça,Cádiz CF,Alejandro Muñiz Ruiz
+2023-08-20T19:30:00Z,2,Real Betis,Atleti,0,0,0,0,0,DRAW,DRAW,Ricardo de Burgos
+2023-08-21T17:00:00Z,2,Alavés,Sevilla FC,4,3,2,2,1,Alavés,Sevilla FC,Guillermo Cuadra Fernández
+2023-08-21T19:30:00Z,2,Granada,Rayo Vallecano,0,2,0,0,2,Rayo Vallecano,Granada,Pablo González Fuertes
+2023-08-25T17:30:00Z,3,Las Palmas,Real Sociedad,0,0,0,0,0,DRAW,DRAW,Guillermo Cuadra Fernández
+2023-08-25T19:30:00Z,3,Celta,Real Madrid,0,1,0,0,1,Real Madrid,Celta,Isidro Díaz de Mera
+2023-08-26T17:00:00Z,3,Cádiz CF,Almería,1,1,0,0,0,DRAW,DRAW,Víctor García Verdura
+2023-08-26T17:30:00Z,3,Granada,Mallorca,3,2,1,1,1,Granada,Mallorca,Francisco Hernández Maeso
+2023-08-26T19:30:00Z,3,Sevilla FC,Girona,1,2,1,1,1,Girona,Sevilla FC,Jesús Gil Manzano
+2023-08-27T15:30:00Z,3,Villarreal,Barça,3,4,2,2,1,Barça,Villarreal,Alejandro Hernández Hernández
+2023-08-27T17:30:00Z,3,Valencia,Osasuna,1,2,0,1,1,Osasuna,Valencia,Juan Pulido Santana
+2023-08-27T19:30:00Z,3,Athletic,Real Betis,4,2,3,2,2,Athletic,Real Betis,César Soto Grado
+2023-08-28T17:30:00Z,3,Getafe,Alavés,1,0,0,0,1,Getafe,Alavés,Juan Martínez Munuera
+2023-08-28T19:30:00Z,3,Rayo Vallecano,Atleti,0,7,0,3,7,Atleti,Rayo Vallecano,José Munuera Montero
+2023-09-01T17:30:00Z,4,Cádiz CF,Villarreal,3,1,2,1,2,Cádiz CF,Villarreal,Juan Pulido Santana
+2023-09-01T20:00:00Z,4,Almería,Celta,2,3,0,2,1,Celta,Almería,Ricardo de Burgos
+2023-09-02T12:00:00Z,4,Real Sociedad,Granada,5,3,2,1,2,Real Sociedad,Granada,Javier Iglesias Villanueva
+2023-09-02T14:15:00Z,4,Real Madrid,Getafe,2,1,0,1,1,Real Madrid,Getafe,Mario Melero López
+2023-09-02T16:30:00Z,4,Alavés,Valencia,1,0,1,0,1,Alavés,Valencia,Pablo González Fuertes
+2023-09-02T19:00:00Z,4,Real Betis,Rayo Vallecano,1,0,0,0,1,Real Betis,Rayo Vallecano,Alejandro Muñiz Ruiz
+2023-09-03T12:00:00Z,4,Girona,Las Palmas,1,0,0,0,1,Girona,Las Palmas,Mateo Busquets Ferrer
+2023-09-03T14:15:00Z,4,Mallorca,Athletic,0,0,0,0,0,DRAW,DRAW,Jorge Figueroa Vázquez
+2023-09-03T19:00:00Z,4,Osasuna,Barça,1,2,0,1,1,Barça,Osasuna,Miguel Ortiz Arias
+2023-09-15T19:00:00Z,5,Rayo Vallecano,Alavés,2,0,1,0,2,Rayo Vallecano,Alavés,Víctor García Verdura
+2023-09-16T12:00:00Z,5,Athletic,Cádiz CF,3,0,0,0,3,Athletic,Cádiz CF,Guillermo Cuadra Fernández
+2023-09-16T14:15:00Z,5,Valencia,Atleti,3,0,2,0,3,Valencia,Atleti,Jesús Gil Manzano
+2023-09-16T16:30:00Z,5,Celta,Mallorca,0,1,0,0,1,Mallorca,Celta,José Munuera Montero
+2023-09-16T19:00:00Z,5,Barça,Real Betis,5,0,2,0,5,Barça,Real Betis,José Sánchez Martínez
+2023-09-17T12:00:00Z,5,Getafe,Osasuna,3,2,1,1,1,Getafe,Osasuna,Alejandro Hernández Hernández
+2023-09-17T14:15:00Z,5,Villarreal,Almería,2,1,1,1,1,Villarreal,Almería,Francisco Hernández Maeso
+2023-09-17T16:30:00Z,5,Sevilla FC,Las Palmas,1,0,0,0,1,Sevilla FC,Las Palmas,Juan Martínez Munuera
+2023-09-17T19:00:00Z,5,Real Madrid,Real Sociedad,2,1,0,1,1,Real Madrid,Real Sociedad,César Soto Grado
+2023-09-18T19:00:00Z,5,Granada,Girona,2,4,0,3,2,Girona,Granada,Isidro Díaz de Mera
+2023-09-22T19:00:00Z,6,Alavés,Athletic,0,2,0,1,2,Athletic,Alavés,Alejandro Muñiz Ruiz
+2023-09-23T12:00:00Z,6,Girona,Mallorca,5,3,4,1,2,Girona,Mallorca,Pablo González Fuertes
+2023-09-23T14:15:00Z,6,Osasuna,Sevilla FC,0,0,0,0,0,DRAW,DRAW,Javier Iglesias Villanueva
+2023-09-23T16:30:00Z,6,Barça,Celta,3,2,0,1,1,Barça,Celta,Mario Melero López
+2023-09-23T19:00:00Z,6,Almería,Valencia,2,2,0,1,0,DRAW,DRAW,Mateo Busquets Ferrer
+2023-09-24T12:00:00Z,6,Real Sociedad,Getafe,4,3,1,2,1,Real Sociedad,Getafe,Juan Pulido Santana
+2023-09-24T14:15:00Z,6,Rayo Vallecano,Villarreal,1,1,1,1,0,DRAW,DRAW,Jorge Figueroa Vázquez
+2023-09-24T16:30:00Z,6,Las Palmas,Granada,1,0,0,0,1,Las Palmas,Granada,Ricardo de Burgos
+2023-09-24T16:30:00Z,6,Real Betis,Cádiz CF,1,1,0,1,0,DRAW,DRAW,Miguel Ortiz Arias
+2023-09-24T19:00:00Z,6,Atleti,Real Madrid,3,1,2,1,2,Atleti,Real Madrid,Javier Alberola Rojas
+2023-09-26T17:00:00Z,7,Sevilla FC,Almería,5,1,3,0,4,Sevilla FC,Almería,Guillermo Cuadra Fernández
+2023-09-26T19:30:00Z,7,Mallorca,Barça,2,2,2,1,0,DRAW,DRAW,Alejandro Muñiz Ruiz
+2023-09-27T17:00:00Z,7,Athletic,Getafe,2,2,1,0,0,DRAW,DRAW,Isidro Díaz de Mera
+2023-09-27T17:00:00Z,7,Villarreal,Girona,1,2,0,0,1,Girona,Villarreal,José Sánchez Martínez
+2023-09-27T17:00:00Z,7,Real Madrid,Las Palmas,2,0,1,0,2,Real Madrid,Las Palmas,José Munuera Montero
+2023-09-27T19:30:00Z,7,Cádiz CF,Rayo Vallecano,0,0,0,0,0,DRAW,DRAW,Francisco Hernández Maeso
+2023-09-27T19:30:00Z,7,Valencia,Real Sociedad,0,1,0,1,1,Real Sociedad,Valencia,Alejandro Hernández Hernández
+2023-09-28T17:00:00Z,7,Celta,Alavés,1,1,1,0,0,DRAW,DRAW,César Soto Grado
+2023-09-28T17:00:00Z,7,Granada,Real Betis,1,1,0,0,0,DRAW,DRAW,Víctor García Verdura
+2023-09-28T19:30:00Z,7,Osasuna,Atleti,0,2,0,1,2,Atleti,Osasuna,Juan Martínez Munuera
+2023-09-29T19:00:00Z,8,Barça,Sevilla FC,1,0,0,0,1,Barça,Sevilla FC,Miguel Ortiz Arias
+2023-09-30T12:00:00Z,8,Getafe,Villarreal,0,0,0,0,0,DRAW,DRAW,Mateo Busquets Ferrer
+2023-09-30T14:15:00Z,8,Rayo Vallecano,Mallorca,2,2,1,1,0,DRAW,DRAW,Mario Melero López
+2023-09-30T16:30:00Z,8,Girona,Real Madrid,0,3,0,2,3,Real Madrid,Girona,Juan Pulido Santana
+2023-09-30T19:00:00Z,8,Real Sociedad,Athletic,3,0,1,0,3,Real Sociedad,Athletic,Jesús Gil Manzano
+2023-10-01T12:00:00Z,8,Almería,Granada,3,3,3,0,0,DRAW,DRAW,Pablo González Fuertes
+2023-10-01T14:15:00Z,8,Alavés,Osasuna,0,2,0,1,2,Osasuna,Alavés,Jorge Figueroa Vázquez
+2023-10-01T19:00:00Z,8,Atleti,Cádiz CF,3,2,1,2,1,Atleti,Cádiz CF,Javier Iglesias Villanueva
+2023-10-01T19:00:00Z,8,Real Betis,Valencia,3,0,1,0,3,Real Betis,Valencia,Ricardo de Burgos
+2023-10-02T19:00:00Z,8,Las Palmas,Celta,2,1,0,0,1,Las Palmas,Celta,Javier Alberola Rojas
+2023-10-06T19:00:00Z,9,Athletic,Almería,3,0,1,0,3,Athletic,Almería,Víctor García Verdura
+2023-10-07T12:00:00Z,9,Cádiz CF,Girona,0,1,0,0,1,Girona,Cádiz CF,Juan Martínez Munuera
+2023-10-07T14:15:00Z,9,Real Madrid,Osasuna,4,0,1,0,4,Real Madrid,Osasuna,Guillermo Cuadra Fernández
+2023-10-07T16:30:00Z,9,Mallorca,Valencia,1,1,1,1,0,DRAW,DRAW,Francisco Hernández Maeso
+2023-10-07T19:00:00Z,9,Sevilla FC,Rayo Vallecano,2,2,0,2,0,DRAW,DRAW,Isidro Díaz de Mera
+2023-10-08T12:00:00Z,9,Villarreal,Las Palmas,1,2,0,1,1,Las Palmas,Villarreal,Alejandro Muñiz Ruiz
+2023-10-08T14:15:00Z,9,Atleti,Real Sociedad,2,1,1,0,1,Atleti,Real Sociedad,José Munuera Montero
+2023-10-08T16:30:00Z,9,Celta,Getafe,2,2,2,2,0,DRAW,DRAW,José Sánchez Martínez
+2023-10-08T16:30:00Z,9,Alavés,Real Betis,1,1,1,1,0,DRAW,DRAW,Alejandro Hernández Hernández
+2023-10-08T19:00:00Z,9,Granada,Barça,2,2,2,1,0,DRAW,DRAW,César Soto Grado
+2023-10-20T19:00:00Z,10,Osasuna,Granada,2,0,1,0,2,Osasuna,Granada,Mateo Busquets Ferrer
+2023-10-21T12:00:00Z,10,Real Sociedad,Mallorca,1,0,0,0,1,Real Sociedad,Mallorca,Jorge Figueroa Vázquez
+2023-10-21T14:15:00Z,10,Getafe,Real Betis,1,1,1,1,0,DRAW,DRAW,César Soto Grado
+2023-10-21T16:30:00Z,10,Sevilla FC,Real Madrid,1,1,0,0,0,DRAW,DRAW,Ricardo de Burgos
+2023-10-21T19:00:00Z,10,Celta,Atleti,0,3,0,1,3,Atleti,Celta,Guillermo Cuadra Fernández
+2023-10-22T12:00:00Z,10,Las Palmas,Rayo Vallecano,0,1,0,0,1,Rayo Vallecano,Las Palmas,Javier Iglesias Villanueva
+2023-10-22T14:15:00Z,10,Girona,Almería,5,2,3,2,3,Girona,Almería,Miguel Ortiz Arias
+2023-10-22T16:30:00Z,10,Villarreal,Alavés,1,1,0,0,0,DRAW,DRAW,Jesús Gil Manzano
+2023-10-22T19:00:00Z,10,Barça,Athletic,1,0,0,0,1,Barça,Athletic,Juan Martínez Munuera
+2023-10-23T19:00:00Z,10,Valencia,Cádiz CF,2,0,2,0,2,Valencia,Cádiz CF,Pablo González Fuertes
+2023-10-27T19:00:00Z,11,Girona,Celta,1,0,0,0,1,Girona,Celta,Isidro Díaz de Mera
+2023-10-28T12:00:00Z,11,Almería,Las Palmas,1,2,0,1,1,Las Palmas,Almería,Francisco Hernández Maeso
+2023-10-28T14:15:00Z,11,Barça,Real Madrid,1,2,1,0,1,Real Madrid,Barça,Jesús Gil Manzano
+2023-10-28T16:30:00Z,11,Mallorca,Getafe,0,0,0,0,0,DRAW,DRAW,Pablo González Fuertes
+2023-10-28T19:00:00Z,11,Cádiz CF,Sevilla FC,2,2,2,1,0,DRAW,DRAW,César Soto Grado
+2023-10-29T13:00:00Z,11,Real Betis,Osasuna,2,1,1,0,1,Real Betis,Osasuna,José Sánchez Martínez
+2023-10-29T15:15:00Z,11,Rayo Vallecano,Real Sociedad,2,2,1,1,0,DRAW,DRAW,Mateo Busquets Ferrer
+2023-10-29T17:30:00Z,11,Athletic,Valencia,2,2,1,0,0,DRAW,DRAW,Jorge Figueroa Vázquez
+2023-10-29T20:00:00Z,11,Atleti,Alavés,2,1,2,0,1,Atleti,Alavés,Alejandro Muñiz Ruiz
+2023-10-30T20:00:00Z,11,Granada,Villarreal,2,3,2,3,1,Villarreal,Granada,Javier Iglesias Villanueva
+2023-11-03T20:00:00Z,12,Las Palmas,Atleti,2,1,0,0,1,Las Palmas,Atleti,Mario Melero López
+2023-11-04T13:00:00Z,12,Osasuna,Girona,2,4,1,1,2,Girona,Osasuna,José Munuera Montero
+2023-11-04T15:15:00Z,12,Real Betis,Mallorca,2,0,1,0,2,Real Betis,Mallorca,Miguel Ortiz Arias
+2023-11-04T17:30:00Z,12,Celta,Sevilla FC,1,1,1,0,0,DRAW,DRAW,Alejandro Hernández Hernández
+2023-11-04T20:00:00Z,12,Real Sociedad,Barça,0,1,0,0,1,Barça,Real Sociedad,Javier Alberola Rojas
+2023-11-05T13:00:00Z,12,Alavés,Almería,1,0,0,0,1,Alavés,Almería,Juan Pulido Santana
+2023-11-05T15:15:00Z,12,Valencia,Granada,1,0,1,0,1,Valencia,Granada,Víctor García Verdura
+2023-11-05T17:30:00Z,12,Villarreal,Athletic,2,3,0,3,1,Athletic,Villarreal,Guillermo Cuadra Fernández
+2023-11-05T20:00:00Z,12,Real Madrid,Rayo Vallecano,0,0,0,0,0,DRAW,DRAW,Juan Martínez Munuera
+2023-11-06T20:00:00Z,12,Getafe,Cádiz CF,1,0,0,0,1,Getafe,Cádiz CF,Ricardo de Burgos
+2023-11-10T20:00:00Z,13,Athletic,Celta,4,3,2,2,1,Athletic,Celta,Juan Pulido Santana
+2023-11-11T13:00:00Z,13,Rayo Vallecano,Girona,1,2,1,1,1,Girona,Rayo Vallecano,Pablo González Fuertes
+2023-11-11T15:15:00Z,13,Almería,Real Sociedad,1,3,0,0,2,Real Sociedad,Almería,Isidro Díaz de Mera
+2023-11-11T17:30:00Z,13,Osasuna,Las Palmas,1,1,0,0,0,DRAW,DRAW,Jorge Figueroa Vázquez
+2023-11-11T17:30:00Z,13,Granada,Getafe,1,1,1,1,0,DRAW,DRAW,Alejandro Muñiz Ruiz
+2023-11-11T20:00:00Z,13,Real Madrid,Valencia,5,1,2,0,4,Real Madrid,Valencia,José Sánchez Martínez
+2023-11-12T15:15:00Z,13,Barça,Alavés,2,1,0,1,1,Barça,Alavés,Mateo Busquets Ferrer
+2023-11-12T17:30:00Z,13,Sevilla FC,Real Betis,1,1,0,0,0,DRAW,DRAW,Jesús Gil Manzano
+2023-11-12T20:00:00Z,13,Atleti,Villarreal,3,1,1,1,2,Atleti,Villarreal,Francisco Hernández Maeso
+2023-11-24T20:00:00Z,14,Alavés,Granada,3,1,2,0,2,Alavés,Granada,Javier Alberola Rojas
+2023-11-25T13:00:00Z,14,Rayo Vallecano,Barça,1,1,1,0,0,DRAW,DRAW,José Munuera Montero
+2023-11-25T15:15:00Z,14,Valencia,Celta,0,0,0,0,0,DRAW,DRAW,César Soto Grado
+2023-11-25T17:30:00Z,14,Getafe,Almería,2,1,2,1,1,Getafe,Almería,Alejandro Hernández Hernández
+2023-11-25T20:00:00Z,14,Atleti,Mallorca,1,0,0,0,1,Atleti,Mallorca,Juan Martínez Munuera
+2023-11-26T13:00:00Z,14,Villarreal,Osasuna,3,1,0,0,2,Villarreal,Osasuna,Ricardo de Burgos
+2023-11-26T15:15:00Z,14,Real Sociedad,Sevilla FC,2,1,2,0,1,Real Sociedad,Sevilla FC,Miguel Ortiz Arias
+2023-11-26T17:30:00Z,14,Cádiz CF,Real Madrid,0,3,0,1,3,Real Madrid,Cádiz CF,Guillermo Cuadra Fernández
+2023-11-26T20:00:00Z,14,Real Betis,Las Palmas,1,0,1,0,1,Real Betis,Las Palmas,Víctor García Verdura
+2023-11-27T20:00:00Z,14,Girona,Athletic,1,1,0,0,0,DRAW,DRAW,Mario Melero López
+2023-11-29T20:00:00Z,13,Mallorca,Cádiz CF,1,1,1,1,0,DRAW,DRAW,Javier Iglesias Villanueva
+2023-12-01T20:00:00Z,15,Las Palmas,Getafe,2,0,1,0,2,Las Palmas,Getafe,Mateo Busquets Ferrer
+2023-12-02T13:00:00Z,15,Girona,Valencia,2,1,0,0,1,Girona,Valencia,Javier Iglesias Villanueva
+2023-12-02T15:15:00Z,15,Athletic,Rayo Vallecano,4,0,1,0,4,Athletic,Rayo Vallecano,Francisco Hernández Maeso
+2023-12-02T17:30:00Z,15,Real Madrid,Granada,2,0,1,0,2,Real Madrid,Granada,Pablo González Fuertes
+2023-12-02T20:00:00Z,15,Osasuna,Real Sociedad,1,1,1,1,0,DRAW,DRAW,Juan Pulido Santana
+2023-12-03T13:00:00Z,15,Mallorca,Alavés,0,0,0,0,0,DRAW,DRAW,Jorge Figueroa Vázquez
+2023-12-03T15:15:00Z,15,Almería,Real Betis,0,0,0,0,0,DRAW,DRAW,Alejandro Muñiz Ruiz
+2023-12-03T17:30:00Z,15,Sevilla FC,Villarreal,1,1,0,0,0,DRAW,DRAW,Isidro Díaz de Mera
+2023-12-03T20:00:00Z,15,Barça,Atleti,1,0,1,0,1,Barça,Atleti,José Sánchez Martínez
+2023-12-04T20:00:00Z,15,Celta,Cádiz CF,1,1,0,1,0,DRAW,DRAW,Jesús Gil Manzano
+2023-12-08T20:00:00Z,16,Getafe,Valencia,1,0,0,0,1,Getafe,Valencia,Guillermo Cuadra Fernández
+2023-12-09T13:00:00Z,16,Alavés,Las Palmas,0,1,0,1,1,Las Palmas,Alavés,José Munuera Montero
+2023-12-09T15:15:00Z,16,Real Betis,Real Madrid,1,1,0,0,0,DRAW,DRAW,César Soto Grado
+2023-12-09T17:30:00Z,16,Villarreal,Real Sociedad,0,3,0,3,3,Real Sociedad,Villarreal,Mario Melero López
+2023-12-09T20:00:00Z,16,Mallorca,Sevilla FC,1,0,1,0,1,Mallorca,Sevilla FC,Javier Alberola Rojas
+2023-12-10T13:00:00Z,16,Atleti,Almería,2,1,2,0,1,Atleti,Almería,Ricardo de Burgos
+2023-12-10T17:30:00Z,16,Cádiz CF,Osasuna,1,1,1,0,0,DRAW,DRAW,Juan Martínez Munuera
+2023-12-10T20:00:00Z,16,Barça,Girona,2,4,1,2,2,Girona,Barça,Isidro Díaz de Mera
+2023-12-11T20:00:00Z,16,Granada,Athletic,1,1,0,1,0,DRAW,DRAW,Miguel Ortiz Arias
+2023-12-11T20:00:00Z,16,Rayo Vallecano,Celta,0,0,0,0,0,DRAW,DRAW,Víctor García Verdura
+2023-12-15T20:00:00Z,17,Osasuna,Rayo Vallecano,1,0,0,0,1,Osasuna,Rayo Vallecano,Javier Iglesias Villanueva
+2023-12-16T13:00:00Z,17,Celta,Granada,1,0,1,0,1,Celta,Granada,José Sánchez Martínez
+2023-12-16T15:15:00Z,17,Athletic,Atleti,2,0,0,0,2,Athletic,Atleti,Jesús Gil Manzano
+2023-12-16T17:30:00Z,17,Sevilla FC,Getafe,0,3,0,2,3,Getafe,Sevilla FC,Juan Pulido Santana
+2023-12-16T20:00:00Z,17,Valencia,Barça,1,1,0,0,0,DRAW,DRAW,Miguel Ortiz Arias
+2023-12-17T13:00:00Z,17,Almería,Mallorca,0,0,0,0,0,DRAW,DRAW,Pablo González Fuertes
+2023-12-17T15:15:00Z,17,Real Sociedad,Real Betis,0,0,0,0,0,DRAW,DRAW,Mateo Busquets Ferrer
+2023-12-17T17:30:00Z,17,Las Palmas,Cádiz CF,1,1,1,0,0,DRAW,DRAW,Alejandro Muñiz Ruiz
+2023-12-17T20:00:00Z,17,Real Madrid,Villarreal,4,1,2,0,3,Real Madrid,Villarreal,Jorge Figueroa Vázquez
+2023-12-18T20:00:00Z,17,Girona,Alavés,3,0,2,0,3,Girona,Alavés,Francisco Hernández Maeso
+2023-12-19T18:00:00Z,18,Rayo Vallecano,Valencia,0,1,0,0,1,Valencia,Rayo Vallecano,Javier Alberola Rojas
+2023-12-19T20:30:00Z,18,Atleti,Getafe,3,3,1,0,0,DRAW,DRAW,José Munuera Montero
+2023-12-19T20:30:00Z,18,Granada,Sevilla FC,0,3,0,2,3,Sevilla FC,Granada,Mateo Busquets Ferrer
+2023-12-20T18:00:00Z,18,Barça,Almería,3,2,1,1,1,Barça,Almería,Guillermo Cuadra Fernández
+2023-12-20T20:30:00Z,18,Athletic,Las Palmas,1,0,0,0,1,Athletic,Las Palmas,Juan Martínez Munuera
+2023-12-20T20:30:00Z,18,Villarreal,Celta,3,2,2,0,1,Villarreal,Celta,César Soto Grado
+2023-12-21T18:00:00Z,18,Real Betis,Girona,1,1,0,1,0,DRAW,DRAW,Ricardo de Burgos
+2023-12-21T18:00:00Z,18,Cádiz CF,Real Sociedad,0,0,0,0,0,DRAW,DRAW,Javier Iglesias Villanueva
+2023-12-21T20:30:00Z,18,Alavés,Real Madrid,0,1,0,0,1,Real Madrid,Alavés,Isidro Díaz de Mera
+2023-12-21T20:30:00Z,18,Mallorca,Osasuna,3,2,1,1,1,Mallorca,Osasuna,Mario Melero López
+2023-12-23T15:15:00Z,4,Atleti,Sevilla FC,1,0,0,0,1,Atleti,Sevilla FC,
+2024-01-02T16:00:00Z,19,Getafe,Rayo Vallecano,0,2,0,1,2,Rayo Vallecano,Getafe,Jorge Figueroa Vázquez
+2024-01-02T18:15:00Z,19,Real Sociedad,Alavés,1,1,0,0,0,DRAW,DRAW,Víctor García Verdura
+2024-01-02T20:30:00Z,19,Valencia,Villarreal,3,1,2,0,2,Valencia,Villarreal,Jesús Gil Manzano
+2024-01-03T16:00:00Z,19,Granada,Cádiz CF,2,0,1,0,2,Granada,Cádiz CF,Juan Pulido Santana
+2024-01-03T18:15:00Z,19,Celta,Real Betis,2,1,1,1,1,Celta,Real Betis,Miguel Ortiz Arias
+2024-01-03T18:15:00Z,19,Real Madrid,Mallorca,1,0,0,0,1,Real Madrid,Mallorca,Alejandro Muñiz Ruiz
+2024-01-03T20:30:00Z,19,Girona,Atleti,4,3,3,2,1,Girona,Atleti,Alejandro Hernández Hernández
+2024-01-04T16:00:00Z,19,Osasuna,Almería,1,0,1,0,1,Osasuna,Almería,César Soto Grado
+2024-01-04T18:15:00Z,19,Sevilla FC,Athletic,0,2,0,1,2,Athletic,Sevilla FC,José Sánchez Martínez
+2024-01-04T20:30:00Z,19,Las Palmas,Barça,1,2,1,0,1,Barça,Las Palmas,Pablo González Fuertes
+2024-01-12T20:00:00Z,20,Sevilla FC,Alavés,2,3,0,2,1,Alavés,Sevilla FC,Alejandro Hernández Hernández
+2024-01-13T13:00:00Z,20,Las Palmas,Villarreal,3,0,1,0,3,Las Palmas,Villarreal,Javier Iglesias Villanueva
+2024-01-13T15:15:00Z,20,Mallorca,Celta,1,1,1,1,0,DRAW,DRAW,Víctor García Verdura
+2024-01-13T17:30:00Z,20,Athletic,Real Sociedad,2,1,2,0,1,Athletic,Real Sociedad,José Munuera Montero
+2024-01-13T20:00:00Z,20,Real Betis,Granada,1,0,0,0,1,Real Betis,Granada,Guillermo Cuadra Fernández
+2024-01-14T13:00:00Z,20,Almería,Girona,0,0,0,0,0,DRAW,DRAW,Mateo Busquets Ferrer
+2024-01-14T15:15:00Z,20,Cádiz CF,Valencia,1,4,1,1,3,Valencia,Cádiz CF,Isidro Díaz de Mera
+2024-01-19T20:00:00Z,21,Alavés,Cádiz CF,1,0,0,0,1,Alavés,Cádiz CF,Alejandro Muñiz Ruiz
+2024-01-20T13:00:00Z,21,Rayo Vallecano,Las Palmas,0,2,0,1,2,Las Palmas,Rayo Vallecano,Mario Melero López
+2024-01-20T15:15:00Z,21,Villarreal,Mallorca,1,1,1,0,0,DRAW,DRAW,Miguel Ortiz Arias
+2024-01-20T17:30:00Z,21,Valencia,Athletic,1,0,0,0,1,Valencia,Athletic,Juan Pulido Santana
+2024-01-20T20:00:00Z,21,Celta,Real Sociedad,0,1,0,1,1,Real Sociedad,Celta,Jorge Figueroa Vázquez
+2024-01-21T13:00:00Z,21,Osasuna,Getafe,3,2,2,0,1,Osasuna,Getafe,José Sánchez Martínez
+2024-01-21T15:15:00Z,21,Real Madrid,Almería,3,2,0,2,1,Real Madrid,Almería,Francisco Hernández Maeso
+2024-01-21T17:30:00Z,21,Real Betis,Barça,2,4,0,1,2,Barça,Real Betis,Jesús Gil Manzano
+2024-01-21T20:00:00Z,21,Girona,Sevilla FC,5,1,3,1,4,Girona,Sevilla FC,Pablo González Fuertes
+2024-01-22T20:00:00Z,21,Granada,Atleti,0,1,0,0,1,Atleti,Granada,Juan Martínez Munuera
+2024-01-26T20:00:00Z,22,Almería,Alavés,0,3,0,1,3,Alavés,Almería,Miguel Ortiz Arias
+2024-01-27T13:00:00Z,22,Real Sociedad,Rayo Vallecano,0,0,0,0,0,DRAW,DRAW,Alejandro Hernández Hernández
+2024-01-27T15:15:00Z,22,Las Palmas,Real Madrid,1,2,0,0,1,Real Madrid,Las Palmas,César Soto Grado
+2024-01-27T17:30:00Z,22,Barça,Villarreal,3,5,0,1,2,Villarreal,Barça,José Munuera Montero
+2024-01-27T20:00:00Z,22,Mallorca,Real Betis,0,1,0,1,1,Real Betis,Mallorca,Javier Iglesias Villanueva
+2024-01-28T13:00:00Z,22,Celta,Girona,0,1,0,1,1,Girona,Celta,Mario Melero López
+2024-01-28T15:15:00Z,22,Cádiz CF,Athletic,0,0,0,0,0,DRAW,DRAW,Mateo Busquets Ferrer
+2024-01-28T17:30:00Z,22,Sevilla FC,Osasuna,1,1,1,0,0,DRAW,DRAW,Guillermo Cuadra Fernández
+2024-01-28T20:00:00Z,22,Atleti,Valencia,2,0,1,0,2,Atleti,Valencia,Ricardo de Burgos
+2024-01-29T20:00:00Z,22,Getafe,Granada,2,0,2,0,2,Getafe,Granada,Víctor García Verdura
+2024-01-31T18:00:00Z,20,Barça,Osasuna,1,0,0,0,1,Barça,Osasuna,Jorge Figueroa Vázquez
+2024-01-31T20:00:00Z,20,Atleti,Rayo Vallecano,2,1,1,1,1,Atleti,Rayo Vallecano,César Soto Grado
+2024-02-01T20:00:00Z,20,Getafe,Real Madrid,0,2,0,1,2,Real Madrid,Getafe,Ricardo de Burgos
+2024-02-02T20:00:00Z,23,Athletic,Mallorca,4,0,2,0,4,Athletic,Mallorca,Jorge Figueroa Vázquez
+2024-02-03T13:00:00Z,23,Valencia,Almería,2,1,2,0,1,Valencia,Almería,Alejandro Muñiz Ruiz
+2024-02-03T15:15:00Z,23,Granada,Las Palmas,1,1,1,0,0,DRAW,DRAW,Mateo Busquets Ferrer
+2024-02-03T17:30:00Z,23,Alavés,Barça,1,3,0,1,2,Barça,Alavés,Juan Martínez Munuera
+2024-02-03T20:00:00Z,23,Girona,Real Sociedad,0,0,0,0,0,DRAW,DRAW,Jesús Gil Manzano
+2024-02-04T13:00:00Z,23,Villarreal,Cádiz CF,0,0,0,0,0,DRAW,DRAW,Pablo González Fuertes
+2024-02-04T15:15:00Z,23,Osasuna,Celta,0,3,0,2,3,Celta,Osasuna,Javier Alberola Rojas
+2024-02-04T17:30:00Z,23,Real Betis,Getafe,1,1,1,1,0,DRAW,DRAW,Juan Pulido Santana
+2024-02-04T20:00:00Z,23,Real Madrid,Atleti,1,1,1,0,0,DRAW,DRAW,José Sánchez Martínez
+2024-02-05T20:00:00Z,23,Rayo Vallecano,Sevilla FC,1,2,1,2,1,Sevilla FC,Rayo Vallecano,Francisco Hernández Maeso
+2024-02-09T20:00:00Z,24,Cádiz CF,Real Betis,0,2,0,1,2,Real Betis,Cádiz CF,Ricardo de Burgos
+2024-02-10T13:00:00Z,24,Alavés,Villarreal,1,1,1,1,0,DRAW,DRAW,Mario Melero López
+2024-02-10T15:15:00Z,24,Real Sociedad,Osasuna,0,1,0,0,1,Osasuna,Real Sociedad,Isidro Díaz de Mera
+2024-02-10T17:30:00Z,24,Real Madrid,Girona,4,0,2,0,4,Real Madrid,Girona,Juan Martínez Munuera
+2024-02-10T20:00:00Z,24,Las Palmas,Valencia,2,0,0,0,2,Las Palmas,Valencia,Guillermo Cuadra Fernández
+2024-02-11T13:00:00Z,24,Getafe,Celta,3,2,2,0,1,Getafe,Celta,Alejandro Hernández Hernández
+2024-02-11T15:15:00Z,24,Mallorca,Rayo Vallecano,2,1,0,0,1,Mallorca,Rayo Vallecano,José Munuera Montero
+2024-02-11T17:30:00Z,24,Sevilla FC,Atleti,1,0,1,0,1,Sevilla FC,Atleti,Javier Iglesias Villanueva
+2024-02-11T20:00:00Z,24,Barça,Granada,3,3,1,1,0,DRAW,DRAW,Miguel Ortiz Arias
+2024-02-12T20:00:00Z,24,Almería,Athletic,0,0,0,0,0,DRAW,DRAW,Víctor García Verdura
+2024-02-16T20:00:00Z,25,Villarreal,Getafe,1,1,0,1,0,DRAW,DRAW,Javier Alberola Rojas
+2024-02-17T13:00:00Z,25,Atleti,Las Palmas,5,0,2,0,5,Atleti,Las Palmas,Jorge Figueroa Vázquez
+2024-02-17T15:15:00Z,25,Osasuna,Cádiz CF,2,0,0,0,2,Osasuna,Cádiz CF,Francisco Hernández Maeso
+2024-02-17T17:30:00Z,25,Celta,Barça,1,2,0,1,1,Barça,Celta,Juan Pulido Santana
+2024-02-17T20:00:00Z,25,Valencia,Sevilla FC,0,0,0,0,0,DRAW,DRAW,César Soto Grado
+2024-02-18T13:00:00Z,25,Rayo Vallecano,Real Madrid,1,1,1,1,0,DRAW,DRAW,Alejandro Muñiz Ruiz
+2024-02-18T15:15:00Z,25,Granada,Almería,1,1,0,1,0,DRAW,DRAW,Jesús Gil Manzano
+2024-02-18T17:30:00Z,25,Mallorca,Real Sociedad,1,2,1,1,1,Real Sociedad,Mallorca,Pablo González Fuertes
+2024-02-18T20:00:00Z,25,Real Betis,Alavés,0,0,0,0,0,DRAW,DRAW,Mateo Busquets Ferrer
+2024-02-19T20:00:00Z,25,Athletic,Girona,3,2,1,0,1,Athletic,Girona,José Sánchez Martínez
+2024-02-23T20:00:00Z,26,Real Sociedad,Villarreal,1,3,0,1,2,Villarreal,Real Sociedad,Javier Iglesias Villanueva
+2024-02-24T15:15:00Z,26,Barça,Getafe,4,0,1,0,4,Barça,Getafe,Alejandro Muñiz Ruiz
+2024-02-24T17:30:00Z,26,Alavés,Mallorca,1,1,0,0,0,DRAW,DRAW,Víctor García Verdura
+2024-02-24T20:00:00Z,26,Almería,Atleti,2,2,1,1,0,DRAW,DRAW,Javier Alberola Rojas
+2024-02-25T13:00:00Z,26,Cádiz CF,Celta,2,2,0,1,0,DRAW,DRAW,Miguel Ortiz Arias
+2024-02-25T15:15:00Z,26,Real Betis,Athletic,3,1,2,1,2,Real Betis,Athletic,Guillermo Cuadra Fernández
+2024-02-25T17:30:00Z,26,Las Palmas,Osasuna,1,1,0,0,0,DRAW,DRAW,José Munuera Montero
+2024-02-25T20:00:00Z,26,Real Madrid,Sevilla FC,1,0,0,0,1,Real Madrid,Sevilla FC,Isidro Díaz de Mera
+2024-02-26T20:00:00Z,26,Girona,Rayo Vallecano,3,0,0,0,3,Girona,Rayo Vallecano,Ricardo de Burgos
+2024-03-01T20:00:00Z,27,Celta,Almería,1,0,0,0,1,Celta,Almería,José Sánchez Martínez
+2024-03-02T13:00:00Z,27,Sevilla FC,Real Sociedad,3,2,2,1,1,Sevilla FC,Real Sociedad,Mateo Busquets Ferrer
+2024-03-02T15:15:00Z,27,Rayo Vallecano,Cádiz CF,1,1,0,0,0,DRAW,DRAW,Javier Alberola Rojas
+2024-03-02T17:30:00Z,27,Getafe,Las Palmas,3,3,3,1,0,DRAW,DRAW,Pablo González Fuertes
+2024-03-02T20:00:00Z,27,Valencia,Real Madrid,2,2,2,1,0,DRAW,DRAW,Jesús Gil Manzano
+2024-03-03T13:00:00Z,27,Villarreal,Granada,5,1,3,0,4,Villarreal,Granada,Juan Pulido Santana
+2024-03-03T15:15:00Z,27,Atleti,Real Betis,2,1,2,0,1,Atleti,Real Betis,César Soto Grado
+2024-03-03T17:30:00Z,27,Mallorca,Girona,1,0,1,0,1,Mallorca,Girona,Francisco Hernández Maeso
+2024-03-03T20:00:00Z,27,Athletic,Barça,0,0,0,0,0,DRAW,DRAW,Alejandro Hernández Hernández
+2024-03-04T20:00:00Z,27,Osasuna,Alavés,1,0,0,0,1,Osasuna,Alavés,Jorge Figueroa Vázquez
+2024-03-08T20:00:00Z,28,Barça,Mallorca,1,0,0,0,1,Barça,Mallorca,Javier Iglesias Villanueva
+2024-03-09T13:00:00Z,28,Valencia,Getafe,1,0,1,0,1,Valencia,Getafe,Juan Pulido Santana
+2024-03-09T15:15:00Z,28,Cádiz CF,Atleti,2,0,1,0,2,Cádiz CF,Atleti,Pablo González Fuertes
+2024-03-09T17:30:00Z,28,Granada,Real Sociedad,2,3,2,1,1,Real Sociedad,Granada,Juan Martínez Munuera
+2024-03-09T20:00:00Z,28,Girona,Osasuna,2,0,1,0,2,Girona,Osasuna,Mateo Busquets Ferrer
+2024-03-10T13:00:00Z,28,Alavés,Rayo Vallecano,1,0,1,0,1,Alavés,Rayo Vallecano,José Munuera Montero
+2024-03-10T15:15:00Z,28,Las Palmas,Athletic,0,2,0,1,2,Athletic,Las Palmas,Miguel Ortiz Arias
+2024-03-10T17:30:00Z,28,Real Madrid,Celta,4,0,1,0,4,Real Madrid,Celta,Mario Melero López
+2024-03-10T20:00:00Z,28,Real Betis,Villarreal,2,3,2,1,1,Villarreal,Real Betis,Alejandro Hernández Hernández
+2024-03-11T20:00:00Z,28,Almería,Sevilla FC,2,2,1,0,0,DRAW,DRAW,Ricardo de Burgos
+2024-03-15T20:00:00Z,29,Real Sociedad,Cádiz CF,2,0,1,0,2,Real Sociedad,Cádiz CF,César Soto Grado
+2024-03-16T13:00:00Z,29,Mallorca,Granada,1,0,0,0,1,Mallorca,Granada,Ricardo de Burgos
+2024-03-16T15:15:00Z,29,Osasuna,Real Madrid,2,4,1,2,2,Real Madrid,Osasuna,Juan Martínez Munuera
+2024-03-16T17:30:00Z,29,Getafe,Girona,1,0,1,0,1,Getafe,Girona,José Munuera Montero
+2024-03-16T20:00:00Z,29,Athletic,Alavés,2,0,2,0,2,Athletic,Alavés,Alejandro Muñiz Ruiz
+2024-03-17T13:00:00Z,29,Sevilla FC,Celta,1,2,1,0,1,Celta,Sevilla FC,Francisco Hernández Maeso
+2024-03-17T15:15:00Z,29,Villarreal,Valencia,1,0,0,0,1,Villarreal,Valencia,Jorge Figueroa Vázquez
+2024-03-17T15:15:00Z,29,Las Palmas,Almería,0,1,0,1,1,Almería,Las Palmas,Víctor García Verdura
+2024-03-17T17:30:00Z,29,Rayo Vallecano,Real Betis,2,0,1,0,2,Rayo Vallecano,Real Betis,Juan Pulido Santana
+2024-03-17T20:00:00Z,29,Atleti,Barça,0,3,0,1,3,Barça,Atleti,José Sánchez Martínez
+2024-03-29T20:00:00Z,30,Cádiz CF,Granada,1,0,0,0,1,Cádiz CF,Granada,Guillermo Cuadra Fernández
+2024-03-30T13:00:00Z,30,Getafe,Sevilla FC,0,1,0,1,1,Sevilla FC,Getafe,Javier Iglesias Villanueva
+2024-03-30T15:15:00Z,30,Almería,Osasuna,0,3,0,2,3,Osasuna,Almería,Pablo González Fuertes
+2024-03-30T17:30:00Z,30,Valencia,Mallorca,0,0,0,0,0,DRAW,DRAW,Miguel Ortiz Arias
+2024-03-30T20:00:00Z,30,Barça,Las Palmas,1,0,0,0,1,Barça,Las Palmas,Mateo Busquets Ferrer
+2024-03-31T12:00:00Z,30,Celta,Rayo Vallecano,0,0,0,0,0,DRAW,DRAW,Alejandro Hernández Hernández
+2024-03-31T14:15:00Z,30,Girona,Real Betis,3,2,1,1,1,Girona,Real Betis,Jesús Gil Manzano
+2024-03-31T16:30:00Z,30,Alavés,Real Sociedad,0,1,0,0,1,Real Sociedad,Alavés,Francisco Hernández Maeso
+2024-03-31T19:00:00Z,30,Real Madrid,Athletic,2,0,1,0,2,Real Madrid,Athletic,Javier Alberola Rojas
+2024-04-01T19:00:00Z,30,Villarreal,Atleti,1,2,0,1,1,Atleti,Villarreal,Mario Melero López
+2024-04-04T18:00:00Z,26,Granada,Valencia,0,1,0,0,1,Valencia,Granada,Alejandro Hernández Hernández
+2024-04-12T19:00:00Z,31,Real Betis,Celta,2,1,0,0,1,Real Betis,Celta,Juan Martínez Munuera
+2024-04-13T12:00:00Z,31,Atleti,Girona,3,1,2,1,2,Atleti,Girona,Ricardo de Burgos
+2024-04-13T14:15:00Z,31,Rayo Vallecano,Getafe,0,0,0,0,0,DRAW,DRAW,Jorge Figueroa Vázquez
+2024-04-13T16:30:00Z,31,Mallorca,Real Madrid,0,1,0,0,1,Real Madrid,Mallorca,José Sánchez Martínez
+2024-04-13T19:00:00Z,31,Cádiz CF,Barça,0,1,0,1,1,Barça,Cádiz CF,Juan Pulido Santana
+2024-04-14T12:00:00Z,31,Las Palmas,Sevilla FC,0,2,0,1,2,Sevilla FC,Las Palmas,Alejandro Muñiz Ruiz
+2024-04-14T14:15:00Z,31,Granada,Alavés,2,0,2,0,2,Granada,Alavés,Víctor García Verdura
+2024-04-14T16:30:00Z,31,Athletic,Villarreal,1,1,0,0,0,DRAW,DRAW,Guillermo Cuadra Fernández
+2024-04-14T19:00:00Z,31,Real Sociedad,Almería,2,2,1,1,0,DRAW,DRAW,Isidro Díaz de Mera
+2024-04-15T19:00:00Z,31,Osasuna,Valencia,0,1,0,1,1,Valencia,Osasuna,José Munuera Montero
+2024-04-19T19:00:00Z,32,Athletic,Granada,1,1,1,1,0,DRAW,DRAW,Javier Iglesias Villanueva
+2024-04-20T12:00:00Z,32,Celta,Las Palmas,4,1,2,1,3,Celta,Las Palmas,Francisco Hernández Maeso
+2024-04-20T14:15:00Z,32,Rayo Vallecano,Osasuna,2,1,0,1,1,Rayo Vallecano,Osasuna,Mario Melero López
+2024-04-20T16:30:00Z,32,Valencia,Real Betis,1,2,0,1,1,Real Betis,Valencia,Mateo Busquets Ferrer
+2024-04-20T19:00:00Z,32,Girona,Cádiz CF,4,1,2,0,3,Girona,Cádiz CF,Javier Alberola Rojas
+2024-04-21T12:00:00Z,32,Getafe,Real Sociedad,1,1,1,1,0,DRAW,DRAW,Víctor García Verdura
+2024-04-21T14:15:00Z,32,Almería,Villarreal,1,2,1,1,1,Villarreal,Almería,Miguel Ortiz Arias
+2024-04-21T16:30:00Z,32,Alavés,Atleti,2,0,1,0,2,Alavés,Atleti,Jesús Gil Manzano
+2024-04-21T19:00:00Z,32,Real Madrid,Barça,3,2,1,1,1,Real Madrid,Barça,César Soto Grado
+2024-04-22T19:00:00Z,32,Sevilla FC,Mallorca,2,1,0,0,1,Sevilla FC,Mallorca,Alejandro Hernández Hernández
+2024-04-26T19:00:00Z,33,Real Sociedad,Real Madrid,0,1,0,1,1,Real Madrid,Real Sociedad,José Munuera Montero
+2024-04-27T12:00:00Z,33,Las Palmas,Girona,0,2,0,1,2,Girona,Las Palmas,Jorge Figueroa Vázquez
+2024-04-27T14:15:00Z,33,Almería,Getafe,1,3,1,1,2,Getafe,Almería,Guillermo Cuadra Fernández
+2024-04-27T16:30:00Z,33,Alavés,Celta,3,0,0,0,3,Alavés,Celta,Juan Pulido Santana
+2024-04-27T19:00:00Z,33,Atleti,Athletic,3,1,1,1,2,Atleti,Athletic,Juan Martínez Munuera
+2024-04-28T12:00:00Z,33,Cádiz CF,Mallorca,1,1,0,1,0,DRAW,DRAW,Isidro Díaz de Mera
+2024-04-28T14:15:00Z,33,Granada,Osasuna,3,0,1,0,3,Granada,Osasuna,Alejandro Muñiz Ruiz
+2024-04-28T16:30:00Z,33,Villarreal,Rayo Vallecano,3,0,1,0,3,Villarreal,Rayo Vallecano,Pablo González Fuertes
+2024-04-28T19:00:00Z,33,Real Betis,Sevilla FC,1,1,1,0,0,DRAW,DRAW,José Sánchez Martínez
+2024-04-29T19:00:00Z,33,Barça,Valencia,4,2,1,2,2,Barça,Valencia,Ricardo de Burgos
+2024-05-03T19:00:00Z,34,Getafe,Athletic,0,2,0,1,2,Athletic,Getafe,Jesús Gil Manzano
+2024-05-04T12:00:00Z,34,Real Sociedad,Las Palmas,2,0,2,0,2,Real Sociedad,Las Palmas,Miguel Ortiz Arias
+2024-05-04T14:15:00Z,34,Real Madrid,Cádiz CF,3,0,0,0,3,Real Madrid,Cádiz CF,Javier Iglesias Villanueva
+2024-05-04T16:30:00Z,34,Girona,Barça,4,2,1,2,2,Girona,Barça,Alejandro Hernández Hernández
+2024-05-04T19:00:00Z,34,Mallorca,Atleti,0,1,0,1,1,Atleti,Mallorca,Javier Alberola Rojas
+2024-05-05T12:00:00Z,34,Osasuna,Real Betis,0,2,0,2,2,Real Betis,Osasuna,Víctor García Verdura
+2024-05-05T14:15:00Z,34,Celta,Villarreal,3,2,2,1,1,Celta,Villarreal,César Soto Grado
+2024-05-05T16:30:00Z,34,Valencia,Alavés,0,1,0,0,1,Alavés,Valencia,Mario Melero López
+2024-05-05T19:00:00Z,34,Sevilla FC,Granada,3,0,1,0,3,Sevilla FC,Granada,Mateo Busquets Ferrer
+2024-05-05T19:00:00Z,34,Rayo Vallecano,Almería,0,1,0,1,1,Almería,Rayo Vallecano,Francisco Hernández Maeso
+2024-05-10T19:00:00Z,35,Alavés,Girona,2,2,1,2,0,DRAW,DRAW,José Munuera Montero
+2024-05-11T12:00:00Z,35,Mallorca,Las Palmas,1,0,1,0,1,Mallorca,Las Palmas,Juan Martínez Munuera
+2024-05-11T14:15:00Z,35,Villarreal,Sevilla FC,3,2,1,2,1,Villarreal,Sevilla FC,Isidro Díaz de Mera
+2024-05-11T16:30:00Z,35,Granada,Real Madrid,0,4,0,2,4,Real Madrid,Granada,Pablo González Fuertes
+2024-05-11T19:00:00Z,35,Athletic,Osasuna,2,2,0,1,0,DRAW,DRAW,José Sánchez Martínez
+2024-05-12T12:00:00Z,35,Cádiz CF,Getafe,1,0,1,0,1,Cádiz CF,Getafe,Ricardo de Burgos
+2024-05-12T14:15:00Z,35,Atleti,Celta,1,0,0,0,1,Atleti,Celta,Jorge Figueroa Vázquez
+2024-05-12T16:30:00Z,35,Valencia,Rayo Vallecano,0,0,0,0,0,DRAW,DRAW,Juan Pulido Santana
+2024-05-12T19:00:00Z,35,Real Betis,Almería,3,2,2,1,1,Real Betis,Almería,Alejandro Muñiz Ruiz
+2024-05-13T19:00:00Z,35,Barça,Real Sociedad,2,0,1,0,2,Barça,Real Sociedad,Guillermo Cuadra Fernández
+2024-05-14T17:30:00Z,36,Osasuna,Mallorca,1,1,1,0,0,DRAW,DRAW,Francisco Hernández Maeso
+2024-05-14T19:30:00Z,36,Real Madrid,Alavés,5,0,3,0,5,Real Madrid,Alavés,Mateo Busquets Ferrer
+2024-05-14T20:00:00Z,36,Girona,Villarreal,0,1,0,0,1,Villarreal,Girona,José Sánchez Martínez
+2024-05-15T17:30:00Z,36,Sevilla FC,Cádiz CF,0,1,0,0,1,Cádiz CF,Sevilla FC,Miguel Ortiz Arias
+2024-05-15T17:30:00Z,36,Rayo Vallecano,Granada,2,1,1,0,1,Rayo Vallecano,Granada,Isidro Díaz de Mera
+2024-05-15T20:00:00Z,36,Celta,Athletic,2,1,0,1,1,Celta,Athletic,Víctor García Verdura
+2024-05-15T20:00:00Z,36,Getafe,Atleti,0,3,0,2,3,Atleti,Getafe,Mario Melero López
+2024-05-16T17:30:00Z,36,Las Palmas,Real Betis,2,2,1,1,0,DRAW,DRAW,Javier Iglesias Villanueva
+2024-05-16T19:30:00Z,36,Almería,Barça,0,2,0,1,2,Barça,Almería,Javier Alberola Rojas
+2024-05-16T20:00:00Z,36,Real Sociedad,Valencia,1,0,1,0,1,Real Sociedad,Valencia,César Soto Grado
+2024-05-18T19:00:00Z,37,Alavés,Getafe,1,0,1,0,1,Alavés,Getafe,Jorge Figueroa Vázquez
+2024-05-19T17:00:00Z,37,Athletic,Sevilla FC,2,0,2,0,2,Athletic,Sevilla FC,Juan Pulido Santana
+2024-05-19T17:00:00Z,37,Atleti,Osasuna,1,4,0,1,3,Osasuna,Atleti,Pablo González Fuertes
+2024-05-19T17:00:00Z,37,Real Betis,Real Sociedad,0,2,0,2,2,Real Sociedad,Real Betis,Juan Martínez Munuera
+2024-05-19T17:00:00Z,37,Barça,Rayo Vallecano,3,0,1,0,3,Barça,Rayo Vallecano,Jesús Gil Manzano
+2024-05-19T17:00:00Z,37,Cádiz CF,Las Palmas,0,0,0,0,0,DRAW,DRAW,César Soto Grado
+2024-05-19T17:00:00Z,37,Granada,Celta,1,2,0,0,1,Celta,Granada,Javier Alberola Rojas
+2024-05-19T17:00:00Z,37,Valencia,Girona,1,3,0,1,2,Girona,Valencia,Guillermo Cuadra Fernández
+2024-05-19T17:00:00Z,37,Villarreal,Real Madrid,4,4,1,4,0,DRAW,DRAW,Alejandro Hernández Hernández
+2024-05-19T17:00:00Z,37,Mallorca,Almería,2,2,1,1,0,DRAW,DRAW,Ricardo de Burgos
+2024-05-24T19:00:00Z,38,Girona,Granada,7,0,3,0,7,Girona,Granada,Alejandro Muñiz Ruiz
+2024-05-25T12:00:00Z,38,Osasuna,Villarreal,1,1,1,0,0,DRAW,DRAW,Mario Melero López
+2024-05-25T14:15:00Z,38,Real Sociedad,Atleti,0,2,0,1,2,Atleti,Real Sociedad,José Sánchez Martínez
+2024-05-25T16:30:00Z,38,Rayo Vallecano,Athletic,0,1,0,0,1,Athletic,Rayo Vallecano,José Munuera Montero
+2024-05-25T16:30:00Z,38,Almería,Cádiz CF,6,1,0,1,5,Almería,Cádiz CF,Mateo Busquets Ferrer
+2024-05-25T19:00:00Z,38,Real Madrid,Real Betis,0,0,0,0,0,DRAW,DRAW,Isidro Díaz de Mera
+2024-05-26T12:00:00Z,38,Getafe,Mallorca,1,2,0,0,1,Mallorca,Getafe,Víctor García Verdura
+2024-05-26T14:15:00Z,38,Celta,Valencia,2,2,0,1,0,DRAW,DRAW,Miguel Ortiz Arias
+2024-05-26T14:15:00Z,38,Las Palmas,Alavés,1,1,0,0,0,DRAW,DRAW,Francisco Hernández Maeso
+2024-05-26T19:00:00Z,38,Sevilla FC,Barça,1,2,1,1,1,Barça,Sevilla FC,Javier Iglesias Villanueva
