@@ -1,31 +1,127 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #0e1117;
-    color: white;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    background-color: #f4f4f4;
 }
 
-h1 {
+header {
+    background-color: #333;
+    color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+header ul li a:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+header ul li a.active {
+    background-color: #444;
+    font-weight: bold;
+}
+
+/* League-specific colors */
+header ul li a#league-laliga {
+    color: yellow;
+}
+
+header ul li a#league-premier {
+    color: red;
+}
+
+header ul li a#league-ligue1 {
+    color: blue;
+}
+
+header ul li a#league-bundesliga {
+    color: green;
+}
+
+header ul li a#league-seriea {
+    color: purple;
 }
 
 #map {
-    width: 100vw;
-    height: 90vh;
+    height: 600px;
+    margin: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
 }
 
-#info-box {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+footer {
+    text-align: center;
     padding: 10px;
-    font-size: 16px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #00f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.legend {
+    background: white;
+    padding: 10px;
     border-radius: 5px;
-    z-index: 10;
-    display: none; /* Hidden by default, will be shown when a country is clicked */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+.legend i {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.legend div {
+    margin-bottom: 6px;
+}
+
+.legend div:last-child {
+    margin-bottom: 0;
 }

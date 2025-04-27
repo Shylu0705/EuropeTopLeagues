@@ -1,98 +1,179 @@
-const width = window.innerWidth;
-const height = window.innerHeight;
+document.addEventListener('DOMContentLoaded', () => {
+    // League configurations
+    const leagues = [
+        { name: 'La Liga', file: 'laliga.csv', country: 'Spain', color: 'yellow', id: 'league-laliga' },
+        { name: 'Premier League', file: 'premier_league.csv', country: 'England', color: 'red', id: 'league-premier' },
+        { name: 'Ligue 1', file: 'ligue_1.csv', country: 'France', color: 'blue', id: 'league-ligue1' },
+        { name: 'Bundesliga', file: 'bundesliga.csv', country: 'Germany', color: 'green', id: 'league-bundesliga' },
+        { name: 'Serie A', file: 'serie_A.csv', country: 'Italy', color: 'purple', id: 'league-seriea' }
+    ];
 
-const svg = d3.select("#map")
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height);
+    // Country bounds for zooming
+    const countryBounds = {
+        'Spain': { bounds: [[36.0, -9.5], [43.8, 3.5]], zoom: 6 },
+        'England': { bounds: [[50.0, -5.7], [55.8, 1.8]], zoom: 6 },
+        'France': { bounds: [[42.0, -4.8], [51.0, 8.2]], zoom: 6 },
+        'Germany': { bounds: [[47.0, 5.9], [55.0, 15.0]], zoom: 6 },
+        'Italy': { bounds: [[36.6, 6.6], [47.0, 18.5]], zoom: 6 }
+    };
 
-const g = svg.append("g");
-const backButton = d3.select("#back-button");
-    
-const projection = d3.geoMercator()
-    .center([13, 52]) // Europe center
-    .scale(600)
-    .translate([width / 2, height / 2]);
+    // Initialize the map
+    const map = L.map('map').setView([46.0, 2.0], 5); // Center on Europe
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
-const path = d3.geoPath().projection(projection);
+    // Add a legend
+    const legend = L.control({ position: 'bottomright' });
+    legend.onAdd = function () {
+        const div = L.DomUtil.create('div', 'legend');
+        div.innerHTML = leagues.map(league => 
+            `<div><i style="background:${league.color}"></i>${league.name} (${league.country})</div>`
+        ).join('');
+        return div;
+    };
+    legend.addTo(map);
 
-// 5 countries & respective league data files
-const leagues = {
-    "United Kingdom": { file: "data/premier_league.csv", code: "GB" },
-    "Spain": { file: "data/laliga.csv", code: "ES" },
-    "Germany": { file: "data/bundesliga.csv", code: "DE" },
-    "France": { file: "data/ligue_1.csv", code: "FR" },
-    "Italy": { file: "data/serie_A.csv", code: "IT" }
-};
+    // Layer to hold country highlight
+    let borderLayer = L.layerGroup().addTo(map);
 
-// Load Europe map (TopoJSON)
-d3.json("https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson").then(geoData => {
-    const countries = geoData.features;
+    // Function to parse CSV data
+    const parseCSV = (data) => {
+        const rows = data.trim().split('\n');
+        const headers = rows[0].split(',').map(h => h.trim());
+        return rows.slice(1).map(row => {
+            const values = row.split(',').map(v => v.trim());
+            let match = {};
+            headers.forEach((header, i) => {
+                match[header] = values[i];
+            });
+            return match;
+        });
+    };
 
-    g.selectAll("path")
-        .data(countries)
-        .enter().append("path")
-        .attr("d", path)
-        .attr("fill", d => Object.values(leagues).some(l => l.code === d.properties.ISO2) ? "#f39c12" : "#34495e")
-        .attr("stroke", "#ecf0f1")
-        .on("click", function (event, d) {
-            const countryName = d.properties.NAME;
-            if (leagues[countryName]) {
-                const leagueFile = leagues[countryName].file;
-                loadLeagueData(leagueFile, countryName);
-                zoomToCountry(d);
-                backButton.style("display", "block"); // Show back button
+    // Function to calculate team stats
+    const calculateTeamStats = (matches, leagueName) => {
+        const teamStats = {};
+        matches.forEach(match => {
+            const homeTeam = match['home_team'];
+            if (!stadiums[leagueName][homeTeam]) return; // Skip teams not in mapping
+
+            if (!teamStats[homeTeam]) {
+                teamStats[homeTeam] = { wins: 0, losses: 0, draws: 0, matches: 0 };
+            }
+
+            teamStats[homeTeam].matches++;
+            const winner = match['winner'];
+            if (winner === homeTeam) {
+                teamStats[homeTeam].wins++;
+            } else if (winner === 'DRAW') {
+                teamStats[homeTeam].draws++;
+            } else {
+                teamStats[homeTeam].losses++;
             }
         });
-});
+        return teamStats;
+    };
 
-
-function zoomToCountry(d) {
-    const [[x0, y0], [x1, y1]] = path.bounds(d);
-    const dx = x1 - x0;
-    const dy = y1 - y0;
-    const x = (x0 + x1) / 2;
-    const y = (y0 + y1) / 2;
-    const scale = 0.8 / Math.max(dx / width, dy / height);
-    const translate = [width / 2 - scale * x, height / 2 - scale * y];
-
-    g.transition()
-        .duration(1000)
-        .attr("transform", `translate(${translate}) scale(${scale})`);
-}
-
-function loadLeagueData(csvFile, country) {
-    d3.csv(csvFile).then(data => {
-        console.log("Loaded CSV data:", data); // Check if data is being loaded
-
-        // Extract home and away teams
-        const teams = new Set();
-        data.forEach(match => {
-            teams.add(match.home_team); // Add home team
-            teams.add(match.away_team); // Add away team
+    // Function to create a custom marker icon
+    const createMarkerIcon = (color) => {
+        return L.divIcon({
+            className: 'custom-marker',
+            html: `<div style="background-color: ${color}; width: 20px; height: 20px; border-radius: 50%; border: 2px solid black;"></div>`,
+            iconSize: [20, 20],
+            iconAnchor: [10, 10]
         });
+    };
 
-        const totalTeams = teams.size;
-        console.log(`Total teams in ${country}:`, totalTeams); // Log total teams
+    // Function to highlight a country with a vibrant fill
+    const highlightCountry = (country, countryGeoJSON) => {
+        // Clear previous highlight
+        borderLayer.clearLayers();
 
-        // Show the data in the info-box
-        d3.select("#info-box")
-            .style("display", "block")
-            .html(`<strong>${country} League</strong><br>Total Teams: ${totalTeams}`);
-    }).catch(err => {
-        console.error("Error loading CSV:", err);
-        d3.select("#info-box")
-            .style("display", "block")
-            .html(`<strong>Error loading data for ${country} League</strong>`);
-    });
-}
+        // Add new highlight with vibrant fill
+        if (countryGeoJSON[country]) {
+            L.geoJSON(countryGeoJSON[country], {
+                style: {
+                    color: 'transparent',  // No border
+                    weight: 0,            // Remove border
+                    fillColor: '#FFD700', // Vibrant gold color for the fill
+                    fillOpacity: 0.4      // Slightly higher opacity for a stronger effect
+                }
+            }).addTo(borderLayer);
+        }
+    };
 
-backButton.on("click", () => {
-    g.transition()
-        .duration(1000)
-        .attr("transform", "translate(0,0) scale(1)");
+    // Function to set active league link
+    const setActiveLeague = (leagueId) => {
+        // Remove active class from all links
+        document.querySelectorAll('header ul li a').forEach(link => {
+            link.classList.remove('active');
+        });
+        // Add active class to the clicked link
+        const activeLink = document.getElementById(leagueId);
+        if (activeLink) {
+            activeLink.classList.add('active');
+        }
+    };
 
-    backButton.style("display", "none"); // Hide the button
-    d3.select("#info-box").html(""); // Clear info box if you want
+    // Fetch country borders GeoJSON
+    fetch('country_borders.json')
+        .then(response => response.json())
+        .then(countryGeoJSON => {
+            // Process each league and store markers
+            Promise.all(leagues.map(league => 
+                fetch(league.file)
+                    .then(response => response.text())
+                    .then(data => {
+                        const matches = parseCSV(data);
+                        const teamStats = calculateTeamStats(matches, league.name);
+                        return { league: league.name, teamStats, color: league.color, country: league.country };
+                    })
+            ))
+            .then(results => {
+                results.forEach(({ league, teamStats, color, country }) => {
+                    Object.keys(teamStats).forEach(team => {
+                        const { lat, lng, stadium, city } = stadiums[league][team];
+                        const { wins, losses, draws, matches } = teamStats[team];
+
+                        const popupContent = `
+                            <div style="padding: 5px;">
+                                <b>${team} (${league})</b><br>
+                                Stadium: ${stadium}<br>
+                                City: ${city}<br>
+                                Home Matches: ${matches}<br>
+                                Wins: ${wins}<br>
+                                Losses: ${losses}<br>
+                                Draws: ${draws}
+                            </div>
+                        `;
+
+                        L.marker([lat, lng], { icon: createMarkerIcon(color) })
+                            .addTo(map)
+                            .bindPopup(popupContent);
+                    });
+
+                    // Add click event for each league link
+                    const leagueLink = document.getElementById(leagues.find(l => l.name === league).id);
+                    if (leagueLink) {
+                        leagueLink.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            const bounds = countryBounds[country].bounds;
+                            const zoom = countryBounds[country].zoom;
+                            map.fitBounds(bounds, { maxZoom: zoom });
+                            highlightCountry(country, countryGeoJSON);
+                            setActiveLeague(leagueLink.id);
+                        });
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error loading CSV files:', error);
+                alert('Failed to load football data. Please check the console for details.');
+            });
+        })
+        .catch(error => {
+            console.error('Error loading country borders:', error);
+            alert('Failed to load country borders data. Please check the console for details.');
+        });
 });
-

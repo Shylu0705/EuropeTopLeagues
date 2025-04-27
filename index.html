@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Europe Football League Visualisation</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European Football Leagues Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>⚽ Top 5 European Football Leagues</h1>
-    <button id="back-button" style="display: none;">← Back</button>
+    <header>
+        <h1>European Football Leagues Map</h1>
+        <p>Discover stadiums and home game stats for the 2023-2024 season across top European leagues:</p>
+        <ul>
+            <li><a href="#" id="league-laliga">La Liga (Spain)</a></li>
+            <li><a href="#" id="league-premier">Premier League (England)</a></li>
+            <li><a href="#" id="league-ligue1">Ligue 1 (France)</a></li>
+            <li><a href="#" id="league-bundesliga">Bundesliga (Germany)</a></li>
+            <li><a href="#" id="league-seriea">Serie A (Italy)</a></li>
+        </ul>
+    </header>
     <div id="map"></div>
-    <div id="info-box" style="display: none;"></div>
+    <footer>
+        <p>Data Visualisation Project</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="stadium_coordinates.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
