@@ -38,3 +38,12 @@ This project consists of two major parts:
 - **HTML5** + **CSS3**: Frontend layout and styling.
 - **Vanilla JavaScript**: Application logic.
 - **OpenStreetMap** + **CartoDB**: Tile provider for maps.
+
+## Working of the Project
+![Screenshot 2025-04-27 231407](https://github.com/user-attachments/assets/5393d81b-b677-4850-858d-67ede6bf0c4c) ![Screenshot 2025-04-27 231653](https://github.com/user-attachments/assets/ee5fc740-dc59-4cf9-9649-65db58f4b1de)
+![Screenshot 2025-04-27 231745](https://github.com/user-attachments/assets/f89f6f2c-1e36-48d8-aa3f-f5c7320c8b3c) ![Screenshot 2025-04-27 231819](https://github.com/user-attachments/assets/6fb50413-4422-4e49-bf2b-3057289ba342)
+
+
+
+
+
