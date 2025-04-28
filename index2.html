@@ -8,15 +8,13 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 1200px;
+            padding: 0px;
             margin: 0 auto;
-            background: linear-gradient(45deg, #3498db, #8e44ad);
+            background:  #1a1a1a;
             color: white;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
         }
         .controls {
             display: flex;
@@ -31,7 +29,7 @@
             min-width: 200px;
             border-radius: 5px;
             border: none;
-            background-color: #2c3e50;
+            background-color: #444444;
             color: white;
         }
         .comparison-container {
@@ -80,9 +78,57 @@
             0% { transform: translateX(-30%); opacity: 0; }
             100% { transform: translateX(0); opacity: 1; }
         }
+        nav.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #222; 
+            padding: 15px 30px;
+            font-family: Arial, sans-serif;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-out;
+        }
+
+        .navbar-left {
+            font-size: 1.5em;
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar-right a {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 18px;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.2s;
+            font-weight: bold;
+        }
+
+        .navbar-right a:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
     </style>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="navbar-right">
+            <a href="index.html">Map Visualization</a>
+        </div>
+        <div class="navbar-left">
+            <span>Head-to-Head</span>
+        </div>
+    </nav>
     <div class="controls">
         <select id="leagueSelect">
             <option value="">Select League</option>
