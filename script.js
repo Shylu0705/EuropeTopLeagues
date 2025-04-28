@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const leagues = [
         { name: 'La Liga', file: 'laliga.csv', country: 'Spain', color: 'yellow', id: 'league-laliga' },
         { name: 'Premier League', file: 'premier_league.csv', country: 'England', color: 'red', id: 'league-premier' },
-        { name: 'Ligue 1', file: 'ligue_1.csv', country: 'France', color: 'blue', id: 'league-ligue1' },
+        { name: 'Ligue 1', file: 'ligue_1.csv', country: 'France', color: 'blue', id: 'league-laliga' },
         { name: 'Bundesliga', file: 'bundesliga.csv', country: 'Germany', color: 'green', id: 'league-bundesliga' },
         { name: 'Serie A', file: 'serie_A.csv', country: 'Italy', color: 'purple', id: 'league-seriea' }
     ];
@@ -17,10 +17,28 @@ document.addEventListener('DOMContentLoaded', () => {
         'Italy': { bounds: [[36.6, 6.6], [47.0, 18.5]], zoom: 6 }
     };
 
-    // Initialize the map
-    const map = L.map('map').setView([46.0, 2.0], 5); // Center on Europe
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    // Define the max bounds for the map (bounding box)
+    const maxBounds = [
+        [30.0, -20.0],  // Southwest coordinates (lower-left)
+        [60.0, 25.0]    // Northeast coordinates (upper-right)
+    ];
+
+    // Initialize the map with the new larger maxBounds
+    const map = L.map('map', {
+        center: [46.0, 2.0],
+        zoom: 5,
+        maxBounds: maxBounds,  // Set the new maxBounds
+        maxBoundsViscosity: 1.0, // Allows the user to pan up to the max bounds
+        worldCopyJump: false,   // Prevents the map from bouncing back to the center when moved beyond bounds
+        zoomControl: true,
+        minZoom: 5,  // Prevents zooming out beyond a certain level
+        maxZoom: 8   // Optional: Set the max zoom level you want
+    });
+
+    // Add a tile layer with no roads and minimal details (CartoDB Positron)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://carto.com/attributions">CartoDB</a>',
+        noWrap: true
     }).addTo(map);
 
     // Add a legend
